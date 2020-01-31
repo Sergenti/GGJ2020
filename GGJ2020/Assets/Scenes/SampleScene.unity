@@ -307,8 +307,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 96, y: 2.7000008}
-  m_SizeDelta: {x: 109.3, y: 314.9}
+  m_AnchoredPosition: {x: 315, y: -136}
+  m_SizeDelta: {x: 604, y: 108.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &199117602
 MonoBehaviour:
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 199117600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -363,7 +363,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 4
+  m_ChildAlignment: 0
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
@@ -493,7 +493,7 @@ RectTransform:
   - {fileID: 1619348349}
   - {fileID: 1890665931}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -897,6 +897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AnomalyEffect: {fileID: 3350363599844116384, guid: 932e0cab53cf95846b8f0529bccac262,
     type: 3}
+  type: {fileID: 11400000, guid: f0ac94ffae5b82c49b4e4f334a859dd4, type: 2}
 --- !u!61 &1270728211
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1088,7 +1089,7 @@ RectTransform:
   m_Children:
   - {fileID: 199117601}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1173,6 +1174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AnomalyEffect: {fileID: 3350363599844116384, guid: 932e0cab53cf95846b8f0529bccac262,
     type: 3}
+  type: {fileID: 11400000, guid: 4e7ddeda9da038f4e8268124c16ca2b7, type: 2}
 --- !u!212 &1619348352
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1301,6 +1303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AnomalyEffect: {fileID: 3350363599844116384, guid: 932e0cab53cf95846b8f0529bccac262,
     type: 3}
+  type: {fileID: 0}
 --- !u!212 &1775694107
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1429,6 +1432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AnomalyEffect: {fileID: 3350363599844116384, guid: 932e0cab53cf95846b8f0529bccac262,
     type: 3}
+  type: {fileID: 0}
 --- !u!212 &1890665934
 SpriteRenderer:
   m_ObjectHideFlags: 0

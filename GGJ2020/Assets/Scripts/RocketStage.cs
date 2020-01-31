@@ -7,6 +7,7 @@ public class RocketStage : MonoBehaviour
     [SerializeField]
     private GameObject AnomalyEffect;
     private BoxCollider2D AnomalyZone;
+    public StageType type;
 
     // Start is called before the first frame update
     void Start()
