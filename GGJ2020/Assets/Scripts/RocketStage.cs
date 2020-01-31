@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class RocketStage : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject AnomalyEffect;
+    private BoxCollider2D AnomalyZone;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        AnomalyZone = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            CreateRandomAnomaly();
+        }
+    }
+
+    public void CreateRandomAnomaly()
+    {
+        Vector3 randomPoint = Utilities.RandomPointInBounds(AnomalyZone.bounds);
+        Instantiate(AnomalyEffect, randomPoint, Quaternion.identity);
     }
 }
