@@ -31,7 +31,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: 0
+=======
+    filterMode: -1
+>>>>>>> 27c17aa4ba8659911cfd9f638f1c6e1ca6605620
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,7 +45,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
+<<<<<<< HEAD
   spriteExtrude: 2
+=======
+  spriteExtrude: 1
+>>>>>>> 27c17aa4ba8659911cfd9f638f1c6e1ca6605620
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -70,6 +78,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -82,6 +91,8 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> 27c17aa4ba8659911cfd9f638f1c6e1ca6605620
   spriteSheet:
     serializedVersion: 2
     sprites: []
