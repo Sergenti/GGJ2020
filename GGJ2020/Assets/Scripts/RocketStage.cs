@@ -14,15 +14,6 @@ public class RocketStage : MonoBehaviour
         AnomalyZone = GetComponent<BoxCollider2D>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            CreateRandomAnomaly();
-        }
-    }
-
     public void CreateRandomAnomaly()
     {
         Vector3 randomPoint = Utilities.RandomPointInBounds(AnomalyZone.bounds);
