@@ -15,4 +15,9 @@ public class RocketStage : MonoBehaviour
     {
         
     }
+
+    public void CreateRandomAnomaly()
+    {
+
+    }
 }
