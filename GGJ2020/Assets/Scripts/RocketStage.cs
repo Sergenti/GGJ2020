@@ -7,20 +7,12 @@ public class RocketStage : MonoBehaviour
     [SerializeField]
     private GameObject AnomalyEffect;
     private BoxCollider2D AnomalyZone;
+    public StageType type;
 
     // Start is called before the first frame update
     void Start()
     {
         AnomalyZone = GetComponent<BoxCollider2D>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            CreateRandomAnomaly();
-        }
     }
 
     public void CreateRandomAnomaly()
