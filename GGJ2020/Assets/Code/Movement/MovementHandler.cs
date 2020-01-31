@@ -17,7 +17,6 @@ namespace Code.Movement
         [SerializeField] private Transform lowerStopCheck;
         [SerializeField] private Transform upperStopCheck;
         [SerializeField] private LayerMask rocketMask;
-        [SerializeField] private VoidEvent fallEvent;
 
         public bool debug = false;
         void Start()
@@ -45,9 +44,10 @@ namespace Code.Movement
 
         private void FixedUpdate()
         {
-            if(!_isFalling){
-           _rb.MovePosition(_rb.position + moveVector * (speed * Time.fixedDeltaTime)); 
-           }
+            if(!_isFalling)
+            {
+                _rb.MovePosition(_rb.position + moveVector * (speed * Time.fixedDeltaTime)); 
+            }
         }
 
         public void Fall()
