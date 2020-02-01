@@ -1,7 +1,11 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
+using Code.Difficulty;
 using Code.EventSystem.Events;
 using Code.Movement;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Code.Behaviour
 {
@@ -14,6 +18,19 @@ namespace Code.Behaviour
         [SerializeField] private GameObject stagePortion; //Gameobject to serialize
         [Space]
         [SerializeField] private FloatEvent fallEvent;
+        [Space]
+        [SerializeField] private List<GameObject> anomalyList = new List<GameObject>();
+
+        private DifficultyIncrease _diff;
+
+        public DifficultyIncrease Diff
+        {
+            set
+            {
+                _diff = value;
+                StartCoroutine(Timer(_diff.AnomalyApparition,_diff.AnomalyDuration));
+            }
+        }
 
         private void Start()
         {
@@ -35,6 +52,25 @@ namespace Code.Behaviour
                 faller.Fall();
             } 
             fallEvent.Raise(transitionLocation.position.y + transform.position.y);
+        }
+
+        IEnumerator Timer(float duration,float persistence)
+        {
+            yield return new WaitForSeconds(duration);
+            GenerateAnomaly(persistence);
+            StartCoroutine(Timer(duration, persistence));
+        }
+
+        private void GenerateAnomaly(float persistence)
+        {
+            int idx = Random.Range(0, anomalyList.Count);
+            float position = Random.Range(engineLocation.position.y, transitionLocation.position.y);
+            float rotation = Random.Range(0, 360f);
+
+            GameObject newAnomaly = Instantiate(anomalyList[idx], new Vector3(0f, position, 0f), Quaternion.identity);
+            newAnomaly.transform.SetParent(transform); 
+            //newAnomaly.GetComponentInChildren(typeof(Transform)).transform.Rotate(Vector3.up,rotation);
+            newAnomaly.GetComponent<AnomalyBehaviour>().DurationTime = persistence;
         }
     }
 }

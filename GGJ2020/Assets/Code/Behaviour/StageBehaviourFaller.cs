@@ -16,26 +16,20 @@ namespace Code.Behaviour
         {
            diff.Reset();
            StartCoroutine(Timer(diff.Fuel));
+           FindLowestStage().GetComponent<StageBehaviour>().Diff = diff;
         }
 
         private void IncreaseDiff()
         {
             diff.IncreaseDifficulty();
             StartCoroutine(Timer(diff.Fuel));
+            GameObject nextStage = FindLowestStage();
+            nextStage.GetComponent<StageBehaviour>().Diff = diff;
         }
 
         public void  MakeNextStageFall()
         {
-            GameObject stageTodrop = null;
-            float previousHeight = 99999999f;
-            foreach (var obj in GameObject.FindGameObjectsWithTag("Stage"))
-            {
-                if (obj.transform.position.y < previousHeight)
-                {
-                    stageTodrop = obj;
-                    previousHeight = obj.transform.position.y;
-                }
-            }
+            GameObject stageTodrop = FindLowestStage();
             
             if(stageTodrop == null){return;}
 
@@ -48,6 +42,22 @@ namespace Code.Behaviour
            yield return new WaitForSeconds(duration);
            MakeNextStageFall();
            IncreaseDiff();
+        }
+
+        private GameObject FindLowestStage()
+        {
+            GameObject stage = null;
+            float previousHeight = 99999999f;
+            foreach (var obj in GameObject.FindGameObjectsWithTag("Stage"))
+            {
+                if (obj.transform.position.y < previousHeight)
+                {
+                    stage = obj;
+                    previousHeight = obj.transform.position.y;
+                }
+            }
+
+            return stage;
         }
     }
 }
