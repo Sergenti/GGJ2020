@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: d071c6d35c66cfa5da0a1d060eaf76a9
+guid: bd800feeef36b3d46b9522b0f794885f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3166199054800360140
-    second: Cross-Sheet_0
+      213: -6550415318985873455
+    second: PlierSheet_0
   - first:
-      213: -5294243142443621654
-    second: Cross-Sheet_1
+      213: 7459388958961183696
+    second: PlierSheet_1
   - first:
-      213: 7500296756980689423
-    second: Cross-Sheet_2
+      213: 5587321570193527636
+    second: PlierSheet_2
   - first:
-      213: 4388243764108636043
-    second: Cross-Sheet_3
+      213: -1569466601434085144
+    second: PlierSheet_3
+  - first:
+      213: -5369123256605918717
+    second: PlierSheet_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -57,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -94,17 +97,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cross-Sheet_0
+      name: PlierSheet_1
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 26
-        height: 38
+        x: 32
+        y: 0
+        width: 32
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43d62722cb66f04d0800000000000000
-      internalID: -3166199054800360140
+      spriteID: 0db2a549cb2158760800000000000000
+      internalID: 7459388958961183696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cross-Sheet_1
+      name: PlierSheet_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1
-        width: 26
-        height: 38
+        x: 64
+        y: 0
+        width: 32
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae2a91c79e11786b0800000000000000
-      internalID: -5294243142443621654
+      spriteID: 453534d7d572a8d40800000000000000
+      internalID: 5587321570193527636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cross-Sheet_2
+      name: PlierSheet_3
       rect:
         serializedVersion: 2
-        x: 67
-        y: 1
-        width: 24
-        height: 38
+        x: 96
+        y: 0
+        width: 32
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0a29d58928661860800000000000000
-      internalID: 7500296756980689423
+      spriteID: 8e88eaef072283ae0800000000000000
+      internalID: -1569466601434085144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cross-Sheet_3
+      name: PlierSheet_4
       rect:
         serializedVersion: 2
-        x: 133
-        y: 1
-        width: 24
-        height: 38
+        x: 128
+        y: 0
+        width: 32
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,8 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8fa48b147c26ec30800000000000000
-      internalID: 4388243764108636043
+      spriteID: 30a37be48da0d75b0800000000000000
+      internalID: -5369123256605918717
       vertices: []
       indices: 
       edges: []

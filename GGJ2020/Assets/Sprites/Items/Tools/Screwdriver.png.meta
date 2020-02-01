@@ -1,16 +1,31 @@
 fileFormatVersion: 2
-guid: 64a76e10ec2b9ba42a2670503cffc736
+guid: a2c1f8f04928a1b4ebb0a81b57ee198c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3875210465124533048
-    second: Scotch-sprites_0
+      213: -7592883675248715688
+    second: Screwdriver_0
   - first:
-      213: 1069763623393094151
-    second: Scotch-sprites_1
+      213: 1917106047735325612
+    second: Screwdriver_1
   - first:
-      213: 3208766327207691789
-    second: Scotch-sprites_2
+      213: -5522044825218634358
+    second: Screwdriver_2
+  - first:
+      213: 632712435797482105
+    second: Screwdriver_3
+  - first:
+      213: -9090632919881627770
+    second: Screwdriver_4
+  - first:
+      213: -3846137063885647502
+    second: Screwdriver_5
+  - first:
+      213: -6711189236451548196
+    second: Screwdriver_6
+  - first:
+      213: 9015846351352703476
+    second: Screwdriver_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -105,7 +120,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Screwdriver_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 11
+        width: 6
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3640c0bcdea9a10800000000000000
+      internalID: 1917106047735325612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screwdriver_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 11
+        width: 6
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d2f0f0d71cd53b0800000000000000
+      internalID: -5522044825218634358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screwdriver_3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 11
+        width: 6
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a5eacab98d7c800800000000000000
+      internalID: 632712435797482105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screwdriver_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 11
+        width: 6
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687cbfa068597d180800000000000000
+      internalID: -9090632919881627770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
