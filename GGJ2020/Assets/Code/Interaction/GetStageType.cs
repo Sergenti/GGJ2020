@@ -13,7 +13,7 @@ namespace Code.Interaction
 
         private void OnTriggerStay2D(Collider2D other)
         {
-            //If a new anomaly is in range, "focus" on it
+            //New stage, "focus" on it
             StageType stage = other.GetComponentInChildren<StagePortionDisplay>().StageType;
             if (stage != null && stage != _currentStageType)
             {
@@ -23,7 +23,7 @@ namespace Code.Interaction
 
         private void OnTriggerExit2D(Collider2D other)
         {
-            //If the anomaly is out of range, remove it from our "focus"
+            //If the stage is out of range, remove it from our "focus"
             StageType stage = other.GetComponentInChildren<StagePortionDisplay>().StageType;
             if (stage != null && stage == _currentStageType)
             {

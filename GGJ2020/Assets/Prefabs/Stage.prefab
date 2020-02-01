@@ -86,6 +86,7 @@ MonoBehaviour:
   engineLocation: {fileID: 4099132645162898231}
   stagePortion: {fileID: 8108693176763555010, guid: e961f6212562730518e27ef0a9580ffe,
     type: 3}
+  fallEvent: {fileID: 11400000, guid: c7a4e2dafc5702bf6b79a5c2e0cca39d, type: 2}
 --- !u!1 &4099132645162898232
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +214,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4099132645374566681}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.56, z: 0}
+  m_LocalPosition: {x: 0, y: 4.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4099132644751376602}
