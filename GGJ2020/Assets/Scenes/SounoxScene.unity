@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 334913905}
   m_Layer: 0
   m_Name: LoopManager
-  m_TagString: Sons
+  m_TagString: LoopManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,6 +154,11 @@ MonoBehaviour:
   - name: thruster
     clip: {fileID: 8300000, guid: 49802d6160e5bca49ae4dd0374ec3ef8, type: 3}
     volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+  - name: deplacement_plateforme
+    clip: {fileID: 8300000, guid: 5869038ea21e02f4aa37b85303ead639, type: 3}
+    volume: 1
     pitch: 1
     source: {fileID: 0}
   mixer: {fileID: 24100000, guid: 25b8322517a0fc4468d5fa198b9f57eb, type: 2}
@@ -228,7 +233,7 @@ GameObject:
   - component: {fileID: 1244039487}
   m_Layer: 0
   m_Name: AudioManager
-  m_TagString: Sons
+  m_TagString: AudioManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -252,7 +257,92 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
   - name: alarme_fuel
-    clip: {fileID: 8300000, guid: 4d360b013a879ea4e8489dfebdbab7f3, type: 3}
+    clip: {fileID: 8300000, guid: 2eb621ad00ca18c4899b431a5ea74990, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: alarme_hors_screen
+    clip: {fileID: 8300000, guid: ad2df4ba08fe92a4ca8094213057bdca, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: reparation_bois
+    clip: {fileID: 8300000, guid: fdbb7fa09a0a67144a112327bd8468b8, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: reparation_metal
+    clip: {fileID: 8300000, guid: a0bff6bfb31a3a141952d49aedfbf518, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: reparation_pierre
+    clip: {fileID: 8300000, guid: 6ee64a198308f92459bf2c1a54619c6b, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: reparation_viande
+    clip: {fileID: 8300000, guid: fd52a0cebf2c5f74bb29e3138b389dbd, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: degat_viande_1
+    clip: {fileID: 8300000, guid: bd55778870025954e9fece168065c096, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: degat_viande_2
+    clip: {fileID: 8300000, guid: 023d831b5b5ae19468641cfb5e840c6a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: degat_viande_3
+    clip: {fileID: 8300000, guid: b594abe14d9c47443b7a3f67038508f4, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: degat_bois
+    clip: {fileID: 8300000, guid: e141cbb45c6fdbd41bc945c944c9962f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: degat_metal
+    clip: {fileID: 8300000, guid: f81204089ffb68b4ba5edf34fe60ad30, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: arrivee_ascenceur
+    clip: {fileID: 8300000, guid: 616ada8eb66be6c4b9c4c20efeff4cb0, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ouverture_portes
+    clip: {fileID: 8300000, guid: 3b2a8d6abc36f7e4684e4bf90bd8dfe3, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: fermeture_portes
+    clip: {fileID: 8300000, guid: 3c970c064cc30bf41b04e4c6ae62dbd1, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: bonne_selection_outil
+    clip: {fileID: 8300000, guid: 117b6b34b45dc414288fbd19b3b6a6a3, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: purification_outil
+    clip: {fileID: 8300000, guid: 3d675b45d77e41a43a2b6f99f217185f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: debut_deplacement_plateforme
+    clip: {fileID: 8300000, guid: 4582d1ecb76223b489d384519a3f3f77, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: arret_plateforme
+    clip: {fileID: 8300000, guid: 5436b98e75c89a143975755010713001, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Sons
   - Stage
+  - AudioManager
+  - LoopManager
   layers:
   - Default
   - TransparentFX
