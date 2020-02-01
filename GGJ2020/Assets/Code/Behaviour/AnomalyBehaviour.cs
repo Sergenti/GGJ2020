@@ -15,8 +15,11 @@ namespace Code.Behaviour
 
         public float DurationTime
         {
-            get => durationTime;
-            set => durationTime = value;
+            set
+            {
+                durationTime = value;
+                StartCoroutine(Destroy(durationTime));
+            }
         }
 
         private void Start()
@@ -39,6 +42,7 @@ namespace Code.Behaviour
         {
             yield return new WaitForSeconds(time);
             destroyEvent.Raise(new Void());
+            Destroy(gameObject);
         }
     }
 }
