@@ -55,7 +55,7 @@ namespace Code.Interaction
                    wrongToolEvent.Raise(new Void()); 
                 }
             }
-            else if (currentRepairMaterial != _rightRepairMaterial && Input.GetButtonDown("Interact"))
+            else if (currentRepairMaterial != _rightRepairMaterial && Input.GetButtonDown("Interact") && _anomalyInRange != null)
             {
                 wrongMaterialEvent.Raise(new Void()); 
             }

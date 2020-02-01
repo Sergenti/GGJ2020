@@ -11,7 +11,7 @@ namespace Code.Interaction
             get => _currentStageType;
         }
 
-        private void OnTriggerEnter2D(Collider2D other)
+        private void OnTriggerStay2D(Collider2D other)
         {
             //If a new anomaly is in range, "focus" on it
             StageType stage = other.GetComponentInChildren<StagePortionDisplay>().StageType;

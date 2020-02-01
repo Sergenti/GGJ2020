@@ -14,14 +14,18 @@ namespace Code.Item
 
         private int _toolListIdx = 0;
 
-        private void Start()
-        {
-           currentToolEvent.Raise(toolList.GetRepairTool(0)); 
-        }
+        //NO OTHER SOLUTION FOR NOW
+        private bool hadPrintOnce = false;
+
 
         void Update()
         {
-            
+            if (!hadPrintOnce)
+            {
+                if(toolList.GetRepairTool(0) == null){return;}
+                currentToolEvent.Raise(toolList.GetRepairTool(0));
+                hadPrintOnce = true;
+            }
 
             if (Input.GetButtonDown("ItemScrollUp"))
             {

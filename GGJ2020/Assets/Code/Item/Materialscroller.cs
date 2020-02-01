@@ -9,16 +9,20 @@ namespace Code.Item
     {
         [SerializeField] private MaterialEvent currentMaterialEvent;
         [SerializeField] private RepairMaterialList materialList;
+
+        //NO SOLUTION FOR NOW
+        private bool hasPrintOnce = false;
    
         private int _materialListIdx = 0;
 
-        private void Start()
-        {
-            currentMaterialEvent.Raise(materialList.GetRepairTool(0));
-        }
-
         void Update()
         {
+            if (!hasPrintOnce)
+            {
+                if(materialList.GetRepairTool(0) == null) {return;}
+                currentMaterialEvent.Raise(materialList.GetRepairTool(0));
+                hasPrintOnce = true;
+            }
    
             if (Input.GetButtonDown("MaterialScrollUp"))
             {
