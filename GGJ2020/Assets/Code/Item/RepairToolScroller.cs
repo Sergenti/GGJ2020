@@ -11,32 +11,45 @@ namespace Code.Item
         [SerializeField] private ToolEvent currentToolEvent;
         [SerializeField] private ToolEvent nextToolEvent;
         [SerializeField] private RepairToolList toolList;
+        [SerializeField] private float cooldown = 0.1f;
+        private float cooldownTimer = 0f;
 
         private int _toolListIdx = 0;
 
         private void Start()
         {
-           currentToolEvent.Raise(toolList.GetRepairTool(0)); 
+            currentToolEvent.Raise(toolList.GetRepairTool(0));
         }
 
         void Update()
         {
-            
-
-            if (Input.GetButtonDown("ItemScrollUp"))
+            Debug.Log("Up: " + Input.GetAxisRaw("ItemScrollUp") + "\nDown: " + Input.GetAxisRaw("ItemScrollDown"));
+            // use cooldown to prevent too fast scrolling using the joystick (cause its triggers are axis input)
+            if (cooldownTimer >= cooldown)
             {
-                _toolListIdx = (_toolListIdx + 1) % toolList.GetListSize();
-                currentToolEvent.Raise(toolList.GetRepairTool(_toolListIdx));
-            }
-            else if (Input.GetButtonDown("ItemScrollDown"))
-            {
-                _toolListIdx = (_toolListIdx - 1);
-                if (_toolListIdx < 0)
+                if (Input.GetButtonDown("ItemScrollUp") || Input.GetAxisRaw("ItemScrollUp") == 1)
                 {
-                    _toolListIdx = toolList.GetListSize() - 1;
+                    _toolListIdx = (_toolListIdx + 1) % toolList.GetListSize();
+                    currentToolEvent.Raise(toolList.GetRepairTool(_toolListIdx));
                 }
-                currentToolEvent.Raise(toolList.GetRepairTool(_toolListIdx));
+                else if (Input.GetButtonDown("ItemScrollDown") || Input.GetAxisRaw("ItemScrollDown") == 1)
+                {
+                    _toolListIdx = (_toolListIdx - 1);
+
+                    if (_toolListIdx < 0)
+                    {
+                        _toolListIdx = toolList.GetListSize() - 1;
+                    }
+
+                    currentToolEvent.Raise(toolList.GetRepairTool(_toolListIdx));
+                }
+
+                // reset timer
+                cooldownTimer = 0f;
             }
+            
+            // increment timer
+            cooldownTimer += Time.deltaTime;
         }
     }
 }

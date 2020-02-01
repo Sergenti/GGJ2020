@@ -1090,6 +1090,7 @@ MonoBehaviour:
   currentToolEvent: {fileID: 11400000, guid: 2fba74f8de64f7fb4937591fa3510a19, type: 2}
   nextToolEvent: {fileID: 0}
   toolList: {fileID: 11400000, guid: 090e330316b73195e9a7a86526d5d401, type: 2}
+  cooldown: 0.2
 --- !u!114 &517230261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1105,6 +1106,7 @@ MonoBehaviour:
   currentMaterialEvent: {fileID: 11400000, guid: 41708febbbbd80cbf9acef6f0083ef31,
     type: 2}
   materialList: {fileID: 11400000, guid: 7c2c199b1f0af29439bda45fcef8b0ac, type: 2}
+  cooldown: 0.2
 --- !u!114 &517230262
 MonoBehaviour:
   m_ObjectHideFlags: 0
