@@ -32,6 +32,8 @@ namespace Code.Movement
         // Update is called once per frame
         void Update()
         {
+            CheckPosition();
+            
             if (Math.Abs(Input.GetAxis("Horizontal")) > 0f)
             {
                 //If we turn, raise an event that will trigger the rotation of the objects of the scene
@@ -51,6 +53,10 @@ namespace Code.Movement
             {
                 moveVector = new Vector2(0f,Input.GetAxis("Vertical")); 
             }
+            else
+            {
+                moveVector = Vector2.zero;
+            }
         }
 
         //Check if we are at the top or bottom or none of these
@@ -62,6 +68,7 @@ namespace Code.Movement
                 //If we detect anything (since it's on the rocket layer) it means we are not at the top
                 _isAtTop = false;
             }
+            
             _isAtBottom = true;
             foreach (var collider in Physics2D.OverlapCircleAll(lowerStopCheck.position, radius, rocketMask))
             {
@@ -69,5 +76,13 @@ namespace Code.Movement
                 _isAtBottom= false;
             }
         }
+        
+        //We have to apply the translation here because unity stuff
+       private void FixedUpdate()
+       {
+           {
+               _rb.MovePosition(_rb.position + moveVector * (speed * Time.fixedDeltaTime)); 
+           }
+        } 
     }
 }
