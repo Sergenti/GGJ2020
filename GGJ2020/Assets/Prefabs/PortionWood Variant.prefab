@@ -7,16 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 324571624393053895, guid: 750bd64042ea520458278ae58b1ae2ca,
-        type: 3}
-      propertyPath: _stageType
-      value: 
-      objectReference: {fileID: 11400000, guid: 4e7ddeda9da038f4e8268124c16ca2b7,
-        type: 2}
     - target: {fileID: 324571625505294184, guid: 750bd64042ea520458278ae58b1ae2ca,
         type: 3}
       propertyPath: m_Name
-      value: PortionWood
+      value: PortionWood Variant
       objectReference: {fileID: 0}
     - target: {fileID: 324571625505294187, guid: 750bd64042ea520458278ae58b1ae2ca,
         type: 3}

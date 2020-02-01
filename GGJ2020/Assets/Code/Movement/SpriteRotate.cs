@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Code.Movement
 {
@@ -18,6 +19,19 @@ namespace Code.Movement
                 mask.transform.Translate(new Vector3(amount,0f));
             }
         }
-        
+
+        private void Update()
+        {
+            if (transform.position.x > 1.92f)
+            {
+                transform.SetPositionAndRotation(transform.position- new Vector3(3.84f,0f,0f),Quaternion.identity);
+                mask.transform.SetPositionAndRotation(transform.position + new Vector3(1.92f,0f,0f),Quaternion.identity);
+            }
+            if (transform.position.x < -1.92f)
+            {
+                transform.SetPositionAndRotation(transform.position- new Vector3(-3.84f,0f,0f),Quaternion.identity);
+                mask.transform.SetPositionAndRotation(transform.position + new Vector3(-1.92f,0f,0f),Quaternion.identity);
+            }
+        }
     }
 }
