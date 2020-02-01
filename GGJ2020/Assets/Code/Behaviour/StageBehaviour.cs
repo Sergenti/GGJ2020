@@ -1,27 +1,36 @@
-﻿using Code.Movement;
+using System;
+using Code.EventSystem.Events;
+using Code.Movement;
 using UnityEngine;
 
 namespace Code.Behaviour
 {
     public class StageBehaviour : MonoBehaviour
     {
+        [SerializeField] private Transform transitionLocation;
+        [SerializeField] private Transform engineLocation;
+        [SerializeField] private GameObject stagePortion;
+        [SerializeField] private FloatEvent fallEvent;
 
-        public void  MakeNextStageFall()
+        private float distance;
+        private void Start()
         {
-            GameObject stageTodrop = null;
-            float previousHeight = 99999999f;
-            foreach (var obj in GameObject.FindGameObjectsWithTag("Stage"))
+            distance = Vector3.Distance(transitionLocation.position, engineLocation.position);
+            int nbrOfCut = (int) (distance / 0.64);
+            for (int i = 1; i <= nbrOfCut; i++)
             {
-                if (obj.transform.position.y < previousHeight)
-                {
-                    stageTodrop = obj;
-                    previousHeight = obj.transform.position.y;
-                }
+                var obj = Instantiate(stagePortion, transitionLocation.position + new Vector3(0f,-i* 0.64f,0f), Quaternion.identity);
+               obj.transform.SetParent(transform); 
             }
-            
-            if(stageTodrop == null){return;}
+        }
 
-            stageTodrop.GetComponent<FallEntity>().Fall();
+        public void MakeOwnStageFall()
+        {
+            foreach (FallEntity faller in GetComponentsInChildren(typeof(FallEntity)))
+            {
+                faller.Fall();
+            } 
+            fallEvent.Raise(transitionLocation.position.y + transform.position.y);
         }
     }
 }

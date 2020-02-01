@@ -121,6 +121,56 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &334913904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 334913906}
+  - component: {fileID: 334913905}
+  m_Layer: 0
+  m_Name: LoopManager
+  m_TagString: Sons
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &334913905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334913904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fafba5934590d0d40aa7843f59bb6c68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Thruster
+    clip: {fileID: 8300000, guid: 444280c2f5b2f3248b1c574a8ce7f14d, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  mixer: {fileID: 24100000, guid: 21dd42d9ec676934d89e28b82bc8fc07, type: 2}
+--- !u!4 &334913906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334913904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1224240524
 GameObject:
   m_ObjectHideFlags: 0
@@ -151,6 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Manager: {fileID: 1244039487}
+  Loop: {fileID: 334913905}
 --- !u!4 &1224240526
 Transform:
   m_ObjectHideFlags: 0
@@ -196,7 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: reparation_metal
-    clip: {fileID: 8300000, guid: a48f703556a23a14cb8891a691bbb620, type: 3}
+    clip: {fileID: 8300000, guid: 4cc9f86bc752020499c507ab2a416429, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}

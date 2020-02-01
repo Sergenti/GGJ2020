@@ -16,13 +16,19 @@ namespace Code.Item
 
         private int _toolListIdx = 0;
 
-        private void Start()
-        {
-            currentToolEvent.Raise(toolList.GetRepairTool(0));
-        }
+        //NO OTHER SOLUTION FOR NOW
+        private bool hadPrintOnce = false;
+
 
         void Update()
         {
+            if (!hadPrintOnce)
+            {
+                if(toolList.GetRepairTool(0) == null){return;}
+                currentToolEvent.Raise(toolList.GetRepairTool(0));
+                hadPrintOnce = true;
+            }
+
             Debug.Log("Up: " + Input.GetAxisRaw("ItemScrollUp") + "\nDown: " + Input.GetAxisRaw("ItemScrollDown"));
             // use cooldown to prevent too fast scrolling using the joystick (cause its triggers are axis input)
             if (cooldownTimer >= cooldown)
