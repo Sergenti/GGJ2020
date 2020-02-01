@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c31ef5ec2314d554e8cbe6779e467f66, type: 3}
   m_Name: Stone
   m_EditorClassIdentifier: 
+  stageSprite: {fileID: 21300000, guid: 387a3120dc50bc71a8c0e43f24986691, type: 3}
+  stageMaterial: {fileID: 0}

@@ -10,6 +10,7 @@ namespace Code.Movement
         private Rigidbody2D _rb = null;
         private Vector2 moveVector = Vector2.zero;
         private bool _isFalling = false;
+        private float _roationAmount = 0f;
 
         [SerializeField] private FloatEvent turnEvent = null;
         [SerializeField] private float speed = 4f;
@@ -36,11 +37,14 @@ namespace Code.Movement
             
             if (Math.Abs(Input.GetAxis("Horizontal")) > 0f)
             {
+                _roationAmount += Input.GetAxis("Horizontal") * Time.deltaTime * turnSpeed;
                turnEvent.Raise(Input.GetAxis("Horizontal")*Time.deltaTime*turnSpeed); 
             }
             
             moveVector = new Vector2(0f,Input.GetAxis("Vertical")); 
         }
+
+        
 
         private void FixedUpdate()
         {

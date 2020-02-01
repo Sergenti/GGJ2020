@@ -7,6 +7,7 @@ namespace Code.Movement
     {
         [SerializeField] private Tool toolToRepair;
         [SerializeField] private RepairMaterial repairMaterial;
+        [SerializeField] private SpriteRenderer anomalySprite;
         
         // Start is called before the first frame update
         void Start()
@@ -17,7 +18,7 @@ namespace Code.Movement
         // Update is called once per frame
         void Update()
         {
-        
+            
         }
 
         public void Repair(Tool tool, RepairMaterial material)

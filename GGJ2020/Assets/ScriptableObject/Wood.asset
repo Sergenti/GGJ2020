@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c31ef5ec2314d554e8cbe6779e467f66, type: 3}
   m_Name: Wood
   m_EditorClassIdentifier: 
+  stageSprite: {fileID: 21300000, guid: 25a16d688228c79c19be3da409752d76, type: 3}
+  stageMaterial: {fileID: 0}
