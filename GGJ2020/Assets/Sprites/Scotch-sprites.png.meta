@@ -1,19 +1,67 @@
 fileFormatVersion: 2
-guid: d071c6d35c66cfa5da0a1d060eaf76a9
+guid: 6fb44935ced5f7b17ab5fcd34a7b5546
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3166199054800360140
-    second: Cross-Sheet_0
+      213: -3875210465124533048
+    second: Scotch-sprites_0
   - first:
-      213: -5294243142443621654
-    second: Cross-Sheet_1
+      213: 1069763623393094151
+    second: Scotch-sprites_1
   - first:
-      213: 7500296756980689423
-    second: Cross-Sheet_2
+      213: 3208766327207691789
+    second: Scotch-sprites_2
   - first:
-      213: 4388243764108636043
-    second: Cross-Sheet_3
+      213: 2532870848908921565
+    second: Scotch-sprites_3
+  - first:
+      213: -1329497777603770314
+    second: Scotch-sprites_4
+  - first:
+      213: -6116728845756790693
+    second: Scotch-sprites_5
+  - first:
+      213: 3073247819084782497
+    second: Scotch-sprites_6
+  - first:
+      213: 8606061899500209630
+    second: Scotch-sprites_7
+  - first:
+      213: -6621250423853941481
+    second: Scotch-sprites_8
+  - first:
+      213: -127152132730142565
+    second: Scotch-sprites_9
+  - first:
+      213: 2914913353271908634
+    second: Scotch-sprites_10
+  - first:
+      213: -1784870331642786617
+    second: Scotch-sprites_11
+  - first:
+      213: 7490304220507340116
+    second: Scotch-sprites_12
+  - first:
+      213: 7682152123594893343
+    second: Scotch-sprites_13
+  - first:
+      213: 4642287395013801770
+    second: Scotch-sprites_14
+  - first:
+      213: 5777620957325246017
+    second: Scotch-sprites_15
+  - first:
+      213: -9146638509032014514
+    second: Scotch-sprites_16
+  - first:
+      213: 792433089650788683
+    second: Scotch-sprites_17
+  - first:
+      213: -9122769592385699092
+    second: Scotch-sprites_18
+  - first:
+      213: -7144158809287756560
+    second: Scotch-sprites_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,55 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cross-Sheet_0
+      name: Scotch-sprites_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 26
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43d62722cb66f04d0800000000000000
-      internalID: -3166199054800360140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cross-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 1
-        width: 26
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae2a91c79e11786b0800000000000000
-      internalID: -5294243142443621654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cross-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 1
+        x: 25
+        y: 55
         width: 24
-        height: 38
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,29 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0a29d58928661860800000000000000
-      internalID: 7500296756980689423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cross-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 1
-        width: 24
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8fa48b147c26ec30800000000000000
-      internalID: 4388243764108636043
+      spriteID: 8cc306c1d9c783ac0800000000000000
+      internalID: -3875210465124533048
       vertices: []
       indices: 
       edges: []
