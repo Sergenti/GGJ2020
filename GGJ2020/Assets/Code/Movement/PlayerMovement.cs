@@ -37,7 +37,7 @@ namespace Code.Movement
             if (Math.Abs(Input.GetAxis("Horizontal")) > 0f)
             {
                 //If we turn, raise an event that will trigger the rotation of the objects of the scene
-                turnEvent.Raise(Input.GetAxis("Horizontal")*Time.deltaTime*turnSpeed); 
+                turnEvent.Raise(Input.GetAxis("Horizontal") * Time.deltaTime * turnSpeed); 
             } 
             
             //Compute vertical move vector

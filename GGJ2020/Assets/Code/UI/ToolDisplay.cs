@@ -4,19 +4,14 @@ using UnityEngine;
 
 namespace Code.UI
 {
+    //Simple displayer, we will later display an animation instead
     public class ToolDisplay : MonoBehaviour
     {
         private TextMeshProUGUI _text;
-        // Start is called before the first frame update
+        
         void Start()
         {
             _text = GetComponent<TextMeshProUGUI>();
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-        
         }
 
         public void DisplayToolName(RepairTool tool)
