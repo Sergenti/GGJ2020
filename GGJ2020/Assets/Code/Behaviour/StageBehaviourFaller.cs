@@ -11,6 +11,8 @@ namespace Code.Behaviour
         [SerializeField]
         private DifficultyIncrease diff;
 
+        [SerializeField] private float transitionDuration = 4f;
+
 
         private void Start()
         {
@@ -23,8 +25,7 @@ namespace Code.Behaviour
         {
             diff.IncreaseDifficulty();
             StartCoroutine(Timer(diff.Fuel));
-            GameObject nextStage = FindLowestStage();
-            nextStage.GetComponent<StageBehaviour>().Diff = diff;
+            StartCoroutine(StageTransition());
         }
 
         public void  MakeNextStageFall()
@@ -43,6 +44,14 @@ namespace Code.Behaviour
            MakeNextStageFall();
            IncreaseDiff();
         }
+
+        private IEnumerator StageTransition()
+        {
+            yield return new WaitForSeconds(transitionDuration);
+            GameObject nextStage = FindLowestStage();
+            nextStage.GetComponent<StageBehaviour>().Diff = diff; 
+        }
+
 
         private GameObject FindLowestStage()
         {
