@@ -233,7 +233,7 @@ InputManager:
     m_Name: Interact
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: 
+    negativeButton: space
     positiveButton: joystick button 3
     altNegativeButton: 
     altPositiveButton: 
@@ -268,7 +268,7 @@ InputManager:
     negativeButton: 
     positiveButton: q
     altNegativeButton: 
-    altPositiveButton: space
+    altPositiveButton: 
     gravity: 1000
     dead: 0.001
     sensitivity: 1000

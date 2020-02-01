@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Code.Item
 {
+    // For now it display the text of the item, I wait for the sprites
     public class Materialscroller : MonoBehaviour
     {
         [SerializeField] private MaterialEvent currentMaterialEvent;

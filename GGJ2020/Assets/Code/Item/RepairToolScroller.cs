@@ -3,9 +3,12 @@ using UnityEngine;
 
 namespace Code.Item
 {
+    // Scroll through the toolList and raise 3 toolEvent, previous,current and next, tool
     public class RepairToolScroller : MonoBehaviour
     {
+        [SerializeField] private ToolEvent previousToolEvent;
         [SerializeField] private ToolEvent currentToolEvent;
+        [SerializeField] private ToolEvent nextToolEvent;
         [SerializeField] private RepairToolList toolList;
 
         private int _toolListIdx = 0;
