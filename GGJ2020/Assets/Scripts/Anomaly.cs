@@ -7,12 +7,6 @@ public class Anomaly : MonoBehaviour
 {
     [SerializeField] private float magicNumber = 10f;
     [SerializeField] private SpriteRenderer anomalySprite;
-    [SerializeField] private AnomalyType type; 
-    
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
