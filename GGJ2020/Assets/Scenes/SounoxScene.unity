@@ -196,7 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: reparation_metal
-    clip: {fileID: 8300000, guid: a48f703556a23a14cb8891a691bbb620, type: 3}
+    clip: {fileID: 8300000, guid: 4cc9f86bc752020499c507ab2a416429, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
