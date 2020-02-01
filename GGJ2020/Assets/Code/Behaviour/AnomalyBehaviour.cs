@@ -5,21 +5,16 @@ namespace Code.Behaviour
 {
     public class AnomalyBehaviour : MonoBehaviour
     {
-        
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
+        [SerializeField] private RepairTool rightTool;
+        [SerializeField] private float destroyDelay = 0.2f;
 
-        // Update is called once per frame
-        void Update()
+        public bool tryToRepair(RepairTool tool)
         {
-        
-        }
-
-        public bool tryToRepair(RepairMaterial material, RepairTool tool)
-        {
+            if (tool == rightTool)
+            {
+               Destroy(this.gameObject,destroyDelay);
+               return true;
+            }
             return false;
         }
     }

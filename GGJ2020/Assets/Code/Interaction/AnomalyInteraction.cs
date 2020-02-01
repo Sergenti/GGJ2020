@@ -1,8 +1,9 @@
-﻿using Code.Behaviour;
-using Code.EventSystem;
+﻿using System;
+using Code.Behaviour;
 using Code.EventSystem.Events;
 using Code.Item;
 using UnityEngine;
+using Void = Code.EventSystem.Void;
 
 namespace Code.Interaction
 {
@@ -10,9 +11,16 @@ namespace Code.Interaction
     {
         [SerializeField] private VoidEvent inRangeEvent;
         [SerializeField] private VoidEvent exitRangeEvent;
+        [SerializeField] private GetStageType getStageType;
+
+        [SerializeField] private VoidEvent wrongMaterialEvent;
+        [SerializeField] private VoidEvent wrongToolEvent;
+        [SerializeField] private VoidEvent repairEvent;
 
         private RepairMaterial currentRepairMaterial;
         private RepairTool currentRepairTool;
+
+        private RepairMaterial _rightRepairMaterial;
 
         public RepairMaterial CurrentRepairMaterial
         {
@@ -26,12 +34,30 @@ namespace Code.Interaction
 
         private AnomalyBehaviour _anomalyInRange;
 
+        private void Start()
+        {
+            getStageType = GetComponent<GetStageType>();
+        }
+
 
         void Update()
         {
-            if (Input.GetButtonDown("Interact") && _anomalyInRange != null)
+            if(getStageType.CurrentStage == null) {return;}
+            _rightRepairMaterial = getStageType.CurrentStage.stageMaterial;
+            if (Input.GetButtonDown("Interact") && _anomalyInRange != null && currentRepairMaterial == _rightRepairMaterial)
             {
-                _anomalyInRange.tryToRepair(currentRepairMaterial,currentRepairTool);
+                if (_anomalyInRange.tryToRepair(currentRepairTool))
+                {
+                   repairEvent.Raise(new Void()); 
+                }
+                else
+                {
+                   wrongToolEvent.Raise(new Void()); 
+                }
+            }
+            else if (currentRepairMaterial != _rightRepairMaterial && Input.GetButtonDown("Interact") && _anomalyInRange != null)
+            {
+                wrongMaterialEvent.Raise(new Void()); 
             }
         }
 

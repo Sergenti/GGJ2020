@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c31ef5ec2314d554e8cbe6779e467f66, type: 3}
   m_Name: Metal
   m_EditorClassIdentifier: 
+  stageSprite: {fileID: 21300000, guid: 105ebffcb7dcf994db00937169fb81db, type: 3}
+  stageMaterial: {fileID: 11400000, guid: 0b2c06e2259ac88bb99e9572b35d606b, type: 2}

@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Code.UI
 {
+   //Simple displayer, we will later display an animation instead 
     public class MaterialDisplay : MonoBehaviour
     {
         

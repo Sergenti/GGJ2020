@@ -9,6 +9,7 @@ public class StagePortionDisplay : MonoBehaviour
 
     public StageType StageType
     {
+        get => _stageType;
         set => _stageType = value;
     }
     
