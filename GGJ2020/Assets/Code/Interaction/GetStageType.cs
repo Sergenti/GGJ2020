@@ -14,7 +14,11 @@ namespace Code.Interaction
         private void OnTriggerStay2D(Collider2D other)
         {
             //New stage, "focus" on it
-            StageType stage = other.GetComponentInChildren<StagePortionDisplay>().StageType;
+            StagePortionDisplay stageDisplay = other.GetComponentInChildren<StagePortionDisplay>();
+            
+            if(stageDisplay == null){return;}
+            
+            StageType stage = stageDisplay.StageType; 
             if (stage != null && stage != _currentStageType)
             {
                 _currentStageType = stage;

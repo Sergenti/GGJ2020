@@ -1,3 +1,4 @@
+using Code.Difficulty;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,6 +10,12 @@ namespace Code.Timer
         [SerializeField] private UnityEvent onTimerEnd = null;
 
         private Timer timer;
+        private DifficultyIncrease diff;
+
+        public DifficultyIncrease Diff
+        {
+            set => diff = value;
+        }
 
         private void Start()
         {
