@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Pince
   m_EditorClassIdentifier: 
   name: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: d071c6d35c66cfa5da0a1d060eaf76a9, type: 3}

@@ -1,7 +1,67 @@
 fileFormatVersion: 2
-guid: fbf67603c9bbea948862bdee984fd441
+guid: 6fb44935ced5f7b17ab5fcd34a7b5546
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3875210465124533048
+    second: Scotch-sprites_0
+  - first:
+      213: 1069763623393094151
+    second: Scotch-sprites_1
+  - first:
+      213: 3208766327207691789
+    second: Scotch-sprites_2
+  - first:
+      213: 2532870848908921565
+    second: Scotch-sprites_3
+  - first:
+      213: -1329497777603770314
+    second: Scotch-sprites_4
+  - first:
+      213: -6116728845756790693
+    second: Scotch-sprites_5
+  - first:
+      213: 3073247819084782497
+    second: Scotch-sprites_6
+  - first:
+      213: 8606061899500209630
+    second: Scotch-sprites_7
+  - first:
+      213: -6621250423853941481
+    second: Scotch-sprites_8
+  - first:
+      213: -127152132730142565
+    second: Scotch-sprites_9
+  - first:
+      213: 2914913353271908634
+    second: Scotch-sprites_10
+  - first:
+      213: -1784870331642786617
+    second: Scotch-sprites_11
+  - first:
+      213: 7490304220507340116
+    second: Scotch-sprites_12
+  - first:
+      213: 7682152123594893343
+    second: Scotch-sprites_13
+  - first:
+      213: 4642287395013801770
+    second: Scotch-sprites_14
+  - first:
+      213: 5777620957325246017
+    second: Scotch-sprites_15
+  - first:
+      213: -9146638509032014514
+    second: Scotch-sprites_16
+  - first:
+      213: 792433089650788683
+    second: Scotch-sprites_17
+  - first:
+      213: -9122769592385699092
+    second: Scotch-sprites_18
+  - first:
+      213: -7144158809287756560
+    second: Scotch-sprites_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -84,7 +144,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Scotch-sprites_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 55
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc306c1d9c783ac0800000000000000
+      internalID: -3875210465124533048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

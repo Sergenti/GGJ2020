@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: df84037ccf22ebc93b87974c4d0c7b64
+guid: d071c6d35c66cfa5da0a1d060eaf76a9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3916493453270866296
-    second: "R\xE9acteur-Sheet_0"
+      213: -3166199054800360140
+    second: Cross-Sheet_0
   - first:
-      213: -5293585976700002934
-    second: "R\xE9acteur-Sheet_1"
+      213: -5294243142443621654
+    second: Cross-Sheet_1
   - first:
-      213: -4795193011675277386
-    second: "R\xE9acteur-Sheet_0"
+      213: 7500296756980689423
+    second: Cross-Sheet_2
   - first:
-      213: -6180773986006684149
-    second: "R\xE9acteur-Sheet_1"
+      213: 4388243764108636043
+    second: Cross-Sheet_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "R\xE9acteur-Sheet_0"
+      name: Cross-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 96
+        x: 2
+        y: 1
+        width: 26
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b7d8a5ac5d047db0800000000000000
-      internalID: -4795193011675277386
+      spriteID: 43d62722cb66f04d0800000000000000
+      internalID: -3166199054800360140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "R\xE9acteur-Sheet_1"
+      name: Cross-Sheet_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 96
+        x: 34
+        y: 1
+        width: 26
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,8 +133,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0ea81f8eca793aa0800000000000000
-      internalID: -6180773986006684149
+      spriteID: ae2a91c79e11786b0800000000000000
+      internalID: -5294243142443621654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cross-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a29d58928661860800000000000000
+      internalID: 7500296756980689423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cross-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fa48b147c26ec30800000000000000
+      internalID: 4388243764108636043
       vertices: []
       indices: 
       edges: []

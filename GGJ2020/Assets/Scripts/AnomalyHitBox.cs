@@ -15,7 +15,7 @@ public class AnomalyHitBox : MonoBehaviour
         if (spriteToFollow != null && spriteToFollow.gameObject.active)
         {
             collider.enabled = true;
-            collider.transform.position = new Vector3(spriteToFollow.transform.position.x, 0f,0f);
+            collider.transform.position = new Vector3(spriteToFollow.transform.position.x, spriteToFollow.transform.position.y,0f);
         } //Disable the collider if the sprite is disabled (when it's behind the rocket)
         else if(!spriteToFollow.gameObject.active)
         {

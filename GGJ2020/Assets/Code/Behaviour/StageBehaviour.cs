@@ -24,6 +24,7 @@ namespace Code.Behaviour
 
         [Space] [SerializeField] private SpriteEvent fuelEvent;
         [SerializeField] private List<Sprite> fuelSprites = new List<Sprite>();
+        [SerializeField] private float margin = 0.5f;
 
         private DifficultyIncrease _diff;
 
@@ -89,7 +90,7 @@ namespace Code.Behaviour
         private void GenerateAnomaly(float persistence)
         {
             int idx = Random.Range(0, anomalyList.Count);
-            float position = Random.Range(engineLocation.position.y, transitionLocation.position.y);
+            float position = Random.Range(engineLocation.position.y + margin, transitionLocation.position.y - margin);
             float rotation = Random.Range(0, 360f);
 
             GameObject newAnomaly = Instantiate(anomalyList[idx], new Vector3(0f, position, 0f), Quaternion.identity);
