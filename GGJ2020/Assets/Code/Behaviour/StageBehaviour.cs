@@ -72,11 +72,11 @@ namespace Code.Behaviour
         
         public void MakeOwnStageFall()
         {
-            foreach (FallEntity faller in GetComponentsInChildren(typeof(FallEntity)))
+            fallEvent.Raise(transitionLocation.TransformPoint(transitionLocation.position).y);
+            /**foreach (FallEntity faller in GetComponentsInChildren(typeof(FallEntity)))
             {
                 faller.Fall();
-            } 
-            fallEvent.Raise(transitionLocation.position.y + transform.position.y);
+            } **/
         }
 
         IEnumerator Timer(float duration,float persistence)

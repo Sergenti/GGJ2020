@@ -12,8 +12,10 @@ GameObject:
   - component: {fileID: 5147110871393161919}
   - component: {fileID: 98503261}
   - component: {fileID: 98503260}
+  - component: {fileID: 1503963338982831074}
+  - component: {fileID: 500552342431645498}
   m_Layer: 8
-  m_Name: StagePortion
+  m_Name: PortionNormal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,6 +98,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravity: 1
   destroyDelay: 2
+--- !u!114 &1503963338982831074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108693176763555010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d239fc68171146f7a8a1f0e9f9ee8818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fe: {fileID: 98503260}
+--- !u!114 &500552342431645498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108693176763555010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c42337f88d1b54a3a03c2f8c2806d50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventToListenTo: {fileID: 11400000, guid: c7a4e2dafc5702bf6b79a5c2e0cca39d, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1503963338982831074}
+        m_MethodName: CheckFall
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8108693177874287983
 GameObject:
   m_ObjectHideFlags: 0

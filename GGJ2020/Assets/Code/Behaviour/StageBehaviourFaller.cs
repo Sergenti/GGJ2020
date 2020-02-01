@@ -11,7 +11,7 @@ namespace Code.Behaviour
         [SerializeField]
         private DifficultyIncrease diff;
 
-        [SerializeField] private float transitionDuration = 4f;
+        [SerializeField] private float transitionDuration = 6f;
 
 
         private void Start()
