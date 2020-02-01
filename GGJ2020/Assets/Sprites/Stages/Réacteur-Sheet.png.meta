@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: -5293585976700002934
     second: "R\xE9acteur-Sheet_1"
+  - first:
+      213: -4795193011675277386
+    second: "R\xE9acteur-Sheet_0"
+  - first:
+      213: -6180773986006684149
+    second: "R\xE9acteur-Sheet_1"
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,9 +102,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 0
         width: 32
-        height: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -106,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8795a579b0e2a5630800000000000000
-      internalID: 3916493453270866296
+      spriteID: 6b7d8a5ac5d047db0800000000000000
+      internalID: -4795193011675277386
       vertices: []
       indices: 
       edges: []
@@ -117,9 +123,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 0
         width: 32
-        height: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +133,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8d9ecec9976986b0800000000000000
-      internalID: -5293585976700002934
+      spriteID: b0ea81f8eca793aa0800000000000000
+      internalID: -6180773986006684149
       vertices: []
       indices: 
       edges: []

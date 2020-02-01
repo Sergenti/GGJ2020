@@ -62,10 +62,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7404796235262917549, guid: 79764fc47cfa7cd0e8b49ae84ab17d13,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404796235262917549, guid: 79764fc47cfa7cd0e8b49ae84ab17d13,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404796235262917549, guid: 79764fc47cfa7cd0e8b49ae84ab17d13,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7404796235262917551, guid: 79764fc47cfa7cd0e8b49ae84ab17d13,
         type: 3}
       propertyPath: m_Name
-      value: Pince_Anomaly
+      value: Pince_Anomaly Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404796235893190234, guid: 79764fc47cfa7cd0e8b49ae84ab17d13,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404796235893190234, guid: 79764fc47cfa7cd0e8b49ae84ab17d13,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79764fc47cfa7cd0e8b49ae84ab17d13, type: 3}
