@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Chalumeau
   m_EditorClassIdentifier: 
   name: Chalumeau
-  icon: {fileID: 0}
+  icon: {fileID: -5294243142443621654, guid: d071c6d35c66cfa5da0a1d060eaf76a9, type: 3}

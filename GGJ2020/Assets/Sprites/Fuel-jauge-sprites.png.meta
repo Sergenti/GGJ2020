@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: a9dba8d9b26706b80893ebd11c5d1dea
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 121511691477582199
+    second: Fuel-jauge-sprites_0
+  - first:
+      213: -8640507366891788198
+    second: Fuel-jauge-sprites_1
+  - first:
+      213: 8764801161061523895
+    second: Fuel-jauge-sprites_2
+  - first:
+      213: -7418979592977553695
+    second: Fuel-jauge-sprites_3
+  - first:
+      213: 6863891630367124830
+    second: Fuel-jauge-sprites_4
+  - first:
+      213: -2888930223559202887
+    second: Fuel-jauge-sprites_5
+  - first:
+      213: 759701708319903052
+    second: Fuel-jauge-sprites_6
+  - first:
+      213: -2420342395932405422
+    second: Fuel-jauge-sprites_7
+  - first:
+      213: -6002625423115663466
+    second: Fuel-jauge-sprites_8
+  - first:
+      213: -3472229755993546884
+    second: Fuel-jauge-sprites_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +70,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +100,231 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Fuel-jauge-sprites_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 135
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77104965d32bfa100800000000000000
+      internalID: 121511691477582199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuel-jauge-sprites_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 135
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58e4454450c61880800000000000000
+      internalID: -8640507366891788198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuel-jauge-sprites_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 135
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1e004d734d2a970800000000000000
+      internalID: 8764801161061523895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuel-jauge-sprites_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 135
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e663bc1e5d7a0990800000000000000
+      internalID: -7418979592977553695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuel-jauge-sprites_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 135
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d2fc44211714f50800000000000000
+      internalID: 6863891630367124830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuel-jauge-sprites_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 135
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b72dd3944578e7d0800000000000000
+      internalID: -2888930223559202887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuel-jauge-sprites_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 135
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d4aabbda00b8a00800000000000000
+      internalID: 759701708319903052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuel-jauge-sprites_7
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 135
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25191a71a67396ed0800000000000000
+      internalID: -2420342395932405422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuel-jauge-sprites_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 70
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697467f1bf362bca0800000000000000
+      internalID: -6002625423115663466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fuel-jauge-sprites_9
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 3
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f967ffe6920dfc0800000000000000
+      internalID: -3472229755993546884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

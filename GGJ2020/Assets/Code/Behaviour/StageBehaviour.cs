@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Code.Difficulty;
+using Code.Events;
 using Code.EventSystem.Events;
 using Code.Movement;
 using UnityEngine;
@@ -21,7 +22,14 @@ namespace Code.Behaviour
         [Space]
         [SerializeField] private List<GameObject> anomalyList = new List<GameObject>();
 
+        [Space] [SerializeField] private SpriteEvent fuelEvent;
+        [SerializeField] private List<Sprite> fuelSprites = new List<Sprite>();
+        [SerializeField] private float margin = 0.5f;
+
         private DifficultyIncrease _diff;
+
+        private float fuel;
+        private int currentFuelIdx = 0;
 
         public DifficultyIncrease Diff
         {
@@ -29,6 +37,23 @@ namespace Code.Behaviour
             {
                 _diff = value;
                 StartCoroutine(Timer(_diff.AnomalyApparition,_diff.AnomalyDuration));
+                fuel = _diff.Fuel;
+            }
+        }
+
+        private void Update()
+        {
+            if (_diff == null)
+            {
+                return;}
+            fuel -= Time.deltaTime;
+            float percent = fuel / _diff.Fuel;
+            percent *= 8;
+            int spriteIdx = (int) (percent);
+            if (spriteIdx > currentFuelIdx)
+            {
+               fuelEvent.Raise(fuelSprites[spriteIdx]);
+               currentFuelIdx++;
             }
         }
 
@@ -58,13 +83,14 @@ namespace Code.Behaviour
         {
             yield return new WaitForSeconds(duration);
             GenerateAnomaly(persistence);
+            currentFuelIdx = 0;
             StartCoroutine(Timer(duration, persistence));
         }
 
         private void GenerateAnomaly(float persistence)
         {
             int idx = Random.Range(0, anomalyList.Count);
-            float position = Random.Range(engineLocation.position.y, transitionLocation.position.y);
+            float position = Random.Range(engineLocation.position.y + margin, transitionLocation.position.y - margin);
             float rotation = Random.Range(0, 360f);
 
             GameObject newAnomaly = Instantiate(anomalyList[idx], new Vector3(0f, position, 0f), Quaternion.identity);

@@ -40,7 +40,10 @@ public class PauseMenu : MonoBehaviour
     void Pause()
     {
         // select the first button, for gamepad navigation of the UI
-        eventSystem.SetSelectedGameObject(firstSelectedButton);
+        if (!EventSystem.current.alreadySelecting)
+        {
+            EventSystem.current.SetSelectedGameObject(firstSelectedButton);
+        }
 
         // show menu
         pausePanel.SetActive(true);

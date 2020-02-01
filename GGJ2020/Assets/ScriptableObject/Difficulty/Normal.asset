@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b34a23e8844c44d2b8116161fdc57320, type: 3}
   m_Name: Normal
   m_EditorClassIdentifier: 
-  initialFuel: 30
-  initialAnomalyApparitionSpeed: 1
+  initialFuel: 40
+  initialAnomalyApparitionSpeed: 2
   initialAnomalyDuration: 10
   fuelFormula: {fileID: 11400000, guid: c35064dd002f7ae6c89d1d6af635ad36, type: 2}
   anomalyApparitionFormula: {fileID: 11400000, guid: c35064dd002f7ae6c89d1d6af635ad36,
