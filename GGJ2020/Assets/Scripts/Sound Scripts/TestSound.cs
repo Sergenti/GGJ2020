@@ -10,8 +10,9 @@ public class TestSound : MonoBehaviour
     void Start()
     {
         
-        Manager.Play("reparation_metal"); //change the name in the function to test the song playing 
-        Loop.Play("Thruster");
+        //Manager.Play("detachement_module"); //change the name in the function to test the song playing 
+        Manager.Play("alarme_fuel");
+        Loop.Play("thruster");//change the name in the function to test the song playing
     }
 
     // Update is called once per frame

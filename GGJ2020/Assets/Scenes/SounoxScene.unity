@@ -147,16 +147,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 334913904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fafba5934590d0d40aa7843f59bb6c68, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a642b12d3c179847abb5d9619d66c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Thruster
-    clip: {fileID: 8300000, guid: 444280c2f5b2f3248b1c574a8ce7f14d, type: 3}
-    volume: 1
+  - name: thruster
+    clip: {fileID: 8300000, guid: 49802d6160e5bca49ae4dd0374ec3ef8, type: 3}
+    volume: 0.1
     pitch: 1
     source: {fileID: 0}
-  mixer: {fileID: 24100000, guid: 21dd42d9ec676934d89e28b82bc8fc07, type: 2}
+  mixer: {fileID: 24100000, guid: 25b8322517a0fc4468d5fa198b9f57eb, type: 2}
 --- !u!4 &334913906
 Transform:
   m_ObjectHideFlags: 0
@@ -246,8 +246,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: reparation_metal
-    clip: {fileID: 8300000, guid: 4cc9f86bc752020499c507ab2a416429, type: 3}
+  - name: detachement_module
+    clip: {fileID: 8300000, guid: 3c4e117cdea0d9e47972eb343e3495f3, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: alarme_fuel
+    clip: {fileID: 8300000, guid: 4d360b013a879ea4e8489dfebdbab7f3, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
