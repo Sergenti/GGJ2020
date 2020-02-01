@@ -7,21 +7,24 @@ namespace Code.Item
     // Scroll through the toolList and raise 3 toolEvent, previous,current and next, tool
     public class RepairToolScroller : MonoBehaviour
     {
+        [Space,Header("Events")]
         [SerializeField] private ToolEvent previousToolEvent;
         [SerializeField] private ToolEvent currentToolEvent;
         [SerializeField] private ToolEvent nextToolEvent;
+        [Space]
         [SerializeField] private RepairToolList toolList;
         private bool canScrollUp = true;
         private bool canScrollDown = true;
 
         private int _toolListIdx = 0;
 
-        //NO OTHER SOLUTION FOR NOW
+        // NO OTHER SOLUTION FOR NOW
         private bool hadPrintOnce = false;
 
 
         void Update()
         {
+            // Force to select an item at the beginning of thw game
             if (!hadPrintOnce)
             {
                 if (toolList.GetRepairTool(0) == null) { return; }

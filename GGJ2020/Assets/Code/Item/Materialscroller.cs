@@ -10,7 +10,7 @@ namespace Code.Item
         [SerializeField] private MaterialEvent currentMaterialEvent;
         [SerializeField] private RepairMaterialList materialList;
 
-        //NO SOLUTION FOR NOW
+        // NO SOLUTION FOR NOW
         private bool hasPrintOnce = false;
 
         private bool canScroll = true;
