@@ -25,4 +25,5 @@ public class Rocket : MonoBehaviour
 
         ctrl.CreateRandomAnomaly();
     }
+
 }
