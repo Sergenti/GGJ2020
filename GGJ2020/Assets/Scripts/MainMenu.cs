@@ -9,4 +9,14 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("ZacScene");
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+    
+    public void OpenOptions()
+    {
+        Debug.Log("There are no options yet...");
+    }
 }
