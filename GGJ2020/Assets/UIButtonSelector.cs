@@ -4,27 +4,27 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class UIButtonSelector : MonoBehaviour, ISelectHandler// required interface when using the OnSelect method.
+public class UIButtonSelector : MonoBehaviour, ISelectHandler, IPointerEnterHandler, IDeselectHandler
 {
     [SerializeField] private GameObject selector;
 
     //Do this when the selectable UI object is selected.
     public void OnSelect(BaseEventData eventData)
     {
-        DisplaySelector(true);
-
-        // iterate through all objects that have the same parent as this one
-        // super ugly code
-        foreach (Transform buttonTransform in transform.parent)
-        {
-            if (buttonTransform.gameObject == this.gameObject) continue;
-
-            buttonTransform.GetComponent<UIButtonSelector>().DisplaySelector(false);
-        }
+        selector.SetActive(true);
     }
 
-    public void DisplaySelector(bool value)
+    public void OnPointerEnter(PointerEventData eventData)
     {
-        selector.SetActive(value);
+        // Select this button when moused over
+        if (!EventSystem.current.alreadySelecting)
+            EventSystem.current.SetSelectedGameObject(this.gameObject);
+    }
+
+    public void OnDeselect(BaseEventData eventData)
+    {
+        // things to do when a button is deselected
+        selector.SetActive(false);
+        this.GetComponent<Selectable>().OnPointerExit(null);
     }
 }
