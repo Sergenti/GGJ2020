@@ -5,7 +5,7 @@ namespace Code.Movement
 {
     public class AnomalyType : MonoBehaviour
     {
-        [SerializeField] private Tool toolToRepair;
+        [SerializeField] private RepairTool toolToRepair;
         [SerializeField] private RepairMaterial repairMaterial;
         [SerializeField] private SpriteRenderer anomalySprite;
         
@@ -21,7 +21,7 @@ namespace Code.Movement
             
         }
 
-        public void Repair(Tool tool, RepairMaterial material)
+        public void Repair(RepairTool tool, RepairMaterial material)
         {
             if (tool == toolToRepair && material == repairMaterial)
             {
