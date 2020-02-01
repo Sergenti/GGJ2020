@@ -9,10 +9,17 @@ public class BackgroundManager : MonoBehaviour
 
     public GameObject star;
 
+    void Start()
+    {
+        InvokeRepeating("GenerateRandomStar", 0, 1);
+    }
+
     public void GenerateRandomStar()
     {
+        // select random spawn point in the spawning zone
         Vector3 spawnPoint = Utilities.RandomPointInBounds(spawnZone.bounds);
-        //Instantiate(star, spawnPoint, Quaternio.down)
+        // create star
+        Instantiate(star, spawnPoint, Quaternion.identity);
 
     }
 }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8108693176763555009}
   - component: {fileID: 5147110871393161919}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: StagePortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,11 +68,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8108693177874287980}
-  - component: {fileID: 8108693177874287979}
   - component: {fileID: 8108693177874287978}
   - component: {fileID: 8108693177874287982}
   - component: {fileID: 8108693177874287981}
-  m_Layer: 0
+  - component: {fileID: 441249510}
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,19 +94,6 @@ Transform:
   m_Father: {fileID: 8108693176763555009}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8108693177874287979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8108693177874287983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4f8fd274890e38bd97e48fac1ad3c84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mask: {fileID: 8108693178235336423}
 --- !u!114 &8108693177874287978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,7 +110,7 @@ MonoBehaviour:
   response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8108693177874287979}
+      - m_Target: {fileID: 441249510}
         m_MethodName: Turn
         m_Mode: 0
         m_Arguments:
@@ -197,6 +184,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stageType: {fileID: 0}
+--- !u!114 &441249510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108693177874287983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529872b98ffb84fe19b2b9037ee17f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask: {fileID: 8108693178235336423}
 --- !u!1 &8108693178140367686
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,7 +207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8108693178140367685}
   - component: {fileID: 8108693178140367684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +288,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8108693178235336422}
   - component: {fileID: 8108693178235336423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
