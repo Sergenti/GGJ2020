@@ -5,11 +5,13 @@ using UnityEngine;
 public class TestSound : MonoBehaviour
 {
     public AudioManager Manager;
+    public LoopManager Loop;
     // Start is called before the first frame update
     void Start()
     {
         
         Manager.Play("reparation_metal"); //change the name in the function to test the song playing 
+        Loop.Play("Thruster");
     }
 
     // Update is called once per frame
