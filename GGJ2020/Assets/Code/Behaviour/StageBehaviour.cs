@@ -1,4 +1,5 @@
 using System;
+using Code.EventSystem.Events;
 using Code.Movement;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ namespace Code.Behaviour
         [SerializeField] private Transform transitionLocation;
         [SerializeField] private Transform engineLocation;
         [SerializeField] private GameObject stagePortion;
+        [SerializeField] private FloatEvent fallEvent;
 
         private float distance;
         private void Start()
@@ -28,6 +30,7 @@ namespace Code.Behaviour
             {
                 faller.Fall();
             } 
+            fallEvent.Raise(transitionLocation.position.y + transform.position.y);
         }
     }
 }
