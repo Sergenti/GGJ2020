@@ -12,7 +12,7 @@ public class BackgroundManager : MonoBehaviour
     public void GenerateRandomStar()
     {
         Vector3 spawnPoint = Utilities.RandomPointInBounds(spawnZone.bounds);
-        Instantiate(star, spawnPoint, Quaternio.down)
+        //Instantiate(star, spawnPoint, Quaternio.down)
 
     }
 }

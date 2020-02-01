@@ -18,10 +18,10 @@ namespace Code.Movement
 
         public void Turn(float amount)
         {
-           transform.Translate(new Vector3(amount,0f));
+           transform.Translate(new Vector3(-amount,0f));
            if (mask != null)
            {
-               mask.transform.Translate(new Vector3(-amount,0f));
+               mask.transform.Translate(new Vector3(amount,0f));
            }
         }
     }
