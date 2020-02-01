@@ -29,7 +29,6 @@ namespace Code.Item
                 hadPrintOnce = true;
             }
 
-            Debug.Log("Up: " + Input.GetAxisRaw("ItemScrollUp") + "\nDown: " + Input.GetAxisRaw("ItemScrollDown"));
             // use cooldown to prevent too fast scrolling using the joystick (cause its triggers are axis input)
             if (cooldownTimer >= cooldown)
             {
