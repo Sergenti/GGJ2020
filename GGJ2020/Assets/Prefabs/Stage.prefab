@@ -721,6 +721,16 @@ MonoBehaviour:
   - {fileID: 1327081086479163064, guid: db6a6bcd45b648fdb95511cbeaa45c3b, type: 3}
   - {fileID: 5577682584375672895, guid: 1a5dd4e5f786729e1b78a571b4f1e4c7, type: 3}
   - {fileID: 7404796235262917551, guid: 79764fc47cfa7cd0e8b49ae84ab17d13, type: 3}
+  fuelEvent: {fileID: 11400000, guid: ee53bae753c5d38678c575dfd4430518, type: 2}
+  fuelSprites:
+  - {fileID: -2420342395932405422, guid: a9dba8d9b26706b80893ebd11c5d1dea, type: 3}
+  - {fileID: 759701708319903052, guid: a9dba8d9b26706b80893ebd11c5d1dea, type: 3}
+  - {fileID: -2888930223559202887, guid: a9dba8d9b26706b80893ebd11c5d1dea, type: 3}
+  - {fileID: 6863891630367124830, guid: a9dba8d9b26706b80893ebd11c5d1dea, type: 3}
+  - {fileID: -7418979592977553695, guid: a9dba8d9b26706b80893ebd11c5d1dea, type: 3}
+  - {fileID: 8764801161061523895, guid: a9dba8d9b26706b80893ebd11c5d1dea, type: 3}
+  - {fileID: -8640507366891788198, guid: a9dba8d9b26706b80893ebd11c5d1dea, type: 3}
+  - {fileID: 121511691477582199, guid: a9dba8d9b26706b80893ebd11c5d1dea, type: 3}
 --- !u!1 &4099132645162898232
 GameObject:
   m_ObjectHideFlags: 0
