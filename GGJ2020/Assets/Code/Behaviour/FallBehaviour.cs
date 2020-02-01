@@ -4,15 +4,13 @@ using UnityEngine;
 
 namespace Code.Behaviour
 {
-    public class DeathBehaviour : MonoBehaviour
+    public class FallBehaviour : MonoBehaviour
     {
         [SerializeField] private VoidEvent deathFallEvent; 
-        // Start is called before the first frame update
-        
 
+        //Fall if under the top of the stage who's falling
         public void CheckFallDeath(float high)
         {
-            Debug.Log(high);
             if (high > transform.position.y)
             {
                 deathFallEvent.Raise(new Void());

@@ -109,6 +109,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rightTool: {fileID: 11400000, guid: 5688eb84fa7483690bf4eff2c1e09345, type: 2}
   destroyDelay: 0.2
+  durationTime: 10
+  destroyEvent: {fileID: 11400000, guid: 876e5bae7b04a2552a89db5d60a1cfef, type: 2}
 --- !u!1 &6578977699276526177
 GameObject:
   m_ObjectHideFlags: 0

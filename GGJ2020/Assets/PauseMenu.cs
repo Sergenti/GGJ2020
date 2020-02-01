@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
+    [SerializeField] private EventSystem eventSystem;
+    [SerializeField] private GameObject firstSelectedButton;
     private bool GameIsPaused = false;
 
     // Update is called once per frame
@@ -36,6 +39,9 @@ public class PauseMenu : MonoBehaviour
 
     void Pause()
     {
+        // select the first button, for gamepad navigation of the UI
+        eventSystem.SetSelectedGameObject(firstSelectedButton);
+
         // show menu
         pausePanel.SetActive(true);
 
