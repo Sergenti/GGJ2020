@@ -9,24 +9,28 @@ namespace Code.Interaction
 {
     public class AnomalyInteraction : MonoBehaviour
     {
+        [Space,Header("Range Events")]
         [SerializeField] private VoidEvent inRangeEvent;
         [SerializeField] private VoidEvent exitRangeEvent;
+        [Space]
         [SerializeField] private GetStageType getStageType;
-
+        [Space,Header("Result Events")]
         [SerializeField] private VoidEvent wrongMaterialEvent;
         [SerializeField] private VoidEvent wrongToolEvent;
         [SerializeField] private VoidEvent repairEvent;
 
+        //Will be updated by two events
         private RepairMaterial currentRepairMaterial;
         private RepairTool currentRepairTool;
 
+        //Get with the getStageType
         private RepairMaterial _rightRepairMaterial;
 
+        // ==== Setters ==== //
         public RepairMaterial CurrentRepairMaterial
         {
             set => currentRepairMaterial = value;
         }
-
         public RepairTool CurrentRepairTool
         {
             set => currentRepairTool = value;
@@ -42,22 +46,29 @@ namespace Code.Interaction
 
         void Update()
         {
-            if(getStageType.CurrentStage == null) {return;}
+            // To avoid latter troubles
+            if(getStageType == null) {return;}
+            
             _rightRepairMaterial = getStageType.CurrentStage.stageMaterial;
-            if (Input.GetButtonDown("Interact") && _anomalyInRange != null && currentRepairMaterial == _rightRepairMaterial)
+            
+            //Check the repairs, and raise different event depending on the result
+            if (Input.GetButtonDown("Interact") && _anomalyInRange != null)
             {
-                if (_anomalyInRange.tryToRepair(currentRepairTool))
+                if (currentRepairMaterial == _rightRepairMaterial)
                 {
-                   repairEvent.Raise(new Void()); 
+                    if (_anomalyInRange.tryToRepair(currentRepairTool))
+                    {
+                        repairEvent.Raise(new Void());
+                    }
+                    else
+                    {
+                        wrongToolEvent.Raise(new Void());
+                    }
                 }
                 else
                 {
-                   wrongToolEvent.Raise(new Void()); 
+                    wrongMaterialEvent.Raise(new Void());
                 }
-            }
-            else if (currentRepairMaterial != _rightRepairMaterial && Input.GetButtonDown("Interact") && _anomalyInRange != null)
-            {
-                wrongMaterialEvent.Raise(new Void()); 
             }
         }
 
