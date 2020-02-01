@@ -7,7 +7,6 @@ using UnityEngine.EventSystems;
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
-    [SerializeField] private EventSystem eventSystem;
     [SerializeField] private GameObject firstSelectedButton;
     private bool GameIsPaused = false;
 
