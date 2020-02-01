@@ -1,4 +1,5 @@
-﻿using Code.EventSystem.Events;
+﻿using System;
+using Code.EventSystem.Events;
 using UnityEngine;
 
 namespace Code.Item
@@ -10,7 +11,12 @@ namespace Code.Item
         [SerializeField] private RepairMaterialList materialList;
    
         private int _materialListIdx = 0;
-           
+
+        private void Start()
+        {
+            currentMaterialEvent.Raise(materialList.GetRepairTool(0));
+        }
+
         void Update()
         {
    

@@ -1,4 +1,5 @@
-﻿using Code.EventSystem.Events;
+﻿using System;
+using Code.EventSystem.Events;
 using UnityEngine;
 
 namespace Code.Item
@@ -12,9 +13,15 @@ namespace Code.Item
         [SerializeField] private RepairToolList toolList;
 
         private int _toolListIdx = 0;
-        
+
+        private void Start()
+        {
+           currentToolEvent.Raise(toolList.GetRepairTool(0)); 
+        }
+
         void Update()
         {
+            
 
             if (Input.GetButtonDown("ItemScrollUp"))
             {

@@ -7,13 +7,12 @@ namespace Code.Behaviour
     {
         [SerializeField] private RepairTool rightTool;
 
-        
-
         public bool tryToRepair(RepairTool tool)
         {
             if (tool == rightTool)
             {
-                
+               Destroy(this.gameObject);
+               return true;
             }
             return false;
         }

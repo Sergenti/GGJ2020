@@ -14,6 +14,8 @@ namespace Code.Interaction
         [SerializeField] private GetStageType getStageType;
 
         [SerializeField] private VoidEvent wrongMaterialEvent;
+        [SerializeField] private VoidEvent wrongToolEvent;
+        [SerializeField] private VoidEvent repairEvent;
 
         private RepairMaterial currentRepairMaterial;
         private RepairTool currentRepairTool;
@@ -40,10 +42,18 @@ namespace Code.Interaction
 
         void Update()
         {
+            if(getStageType.CurrentStage == null) {return;}
             _rightRepairMaterial = getStageType.CurrentStage.stageMaterial;
             if (Input.GetButtonDown("Interact") && _anomalyInRange != null && currentRepairMaterial == _rightRepairMaterial)
             {
-                _anomalyInRange.tryToRepair(currentRepairTool);
+                if (_anomalyInRange.tryToRepair(currentRepairTool))
+                {
+                   repairEvent.Raise(new Void()); 
+                }
+                else
+                {
+                   wrongToolEvent.Raise(new Void()); 
+                }
             }
             else if (currentRepairMaterial != _rightRepairMaterial && Input.GetButtonDown("Interact"))
             {
