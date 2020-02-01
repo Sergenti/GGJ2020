@@ -8,8 +8,8 @@ public class TestSound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //GameObject.Find("AudioManager").GetComponent<AudioManager>().Play();
-        Manager.Play("reparation_metal");
+        
+        Manager.Play("reparation_metal"); //change the name in the function to test the song playing 
     }
 
     // Update is called once per frame
