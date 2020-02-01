@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8108693176763555009}
   - component: {fileID: 5147110871393161919}
-  m_Layer: 0
+  - component: {fileID: 98503261}
+  - component: {fileID: 98503260}
+  m_Layer: 8
   m_Name: StagePortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,6 +61,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6569521, y: 0.66245073}
   m_EdgeRadius: 0
+--- !u!50 &98503261
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108693176763555010}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &98503260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108693176763555010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f2fdab51aecdb40af0ece2de7ea2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravity: 1
 --- !u!1 &8108693177874287983
 GameObject:
   m_ObjectHideFlags: 0
@@ -68,11 +104,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8108693177874287980}
-  - component: {fileID: 8108693177874287979}
   - component: {fileID: 8108693177874287978}
   - component: {fileID: 8108693177874287982}
   - component: {fileID: 8108693177874287981}
-  m_Layer: 0
+  - component: {fileID: 441249510}
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,19 +130,6 @@ Transform:
   m_Father: {fileID: 8108693176763555009}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8108693177874287979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8108693177874287983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4f8fd274890e38bd97e48fac1ad3c84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mask: {fileID: 8108693178235336423}
 --- !u!114 &8108693177874287978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,7 +146,7 @@ MonoBehaviour:
   response:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8108693177874287979}
+      - m_Target: {fileID: 441249510}
         m_MethodName: Turn
         m_Mode: 0
         m_Arguments:
@@ -173,7 +196,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 387a3120dc50bc71a8c0e43f24986691, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 105ebffcb7dcf994db00937169fb81db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -196,7 +219,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1363275a9f3512678aa454048f49979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stageType: {fileID: 0}
+  _stageType: {fileID: 11400000, guid: 6b6fb8683df30ab478d8df7836c3fcce, type: 2}
+--- !u!114 &441249510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8108693177874287983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529872b98ffb84fe19b2b9037ee17f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask: {fileID: 8108693178235336423}
 --- !u!1 &8108693178140367686
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,7 +243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8108693178140367685}
   - component: {fileID: 8108693178140367684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8108693178235336422}
   - component: {fileID: 8108693178235336423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}

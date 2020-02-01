@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 namespace Code.Movement
 {
@@ -7,6 +9,7 @@ namespace Code.Movement
     public class FallEntity : MonoBehaviour
     {
         [SerializeField] private float gravity = 1f;
+        [SerializeField] private float destroyDelay = 2f;
 
         private Rigidbody2D _rb;
         void Start()
@@ -18,6 +21,13 @@ namespace Code.Movement
         public void Fall()
         {
             _rb.gravityScale = gravity;
+            StartCoroutine(nameof(Destroy));
+        }
+
+        private IEnumerator Destroy()
+        {
+            yield return new WaitForSeconds(destroyDelay);
+            Destroy(this.gameObject);
         }
     }
 }
