@@ -15,7 +15,8 @@ namespace Code.Item
         public int GetListSize()
         {
             return items.Count;
-        } 
-        
+        }
+
+        public List<Item> Items => items;
     }
 }

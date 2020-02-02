@@ -29,7 +29,7 @@ namespace Code.Behaviour
         {
             for (int i = 0; i < amount; i++)
             {
-                int type = Random.Range(0, objPossible.Count - 1);
+                int type = Random.Range(0, objPossible.Count);
                 var newRocket = Instantiate(objPossible[type], new Vector3(0f, i * SIZE, 0f), Quaternion.identity);
                 stages.Add(newRocket);
             }

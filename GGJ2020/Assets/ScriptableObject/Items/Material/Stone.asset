@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Stone
   icon: {fileID: 7789744126080550003, guid: 77ecf9ae7df9f39d395d6d312f72fd5a, type: 3}
+  animation: {fileID: 9100000, guid: a4eb6397146294248a8346959d3e32e9, type: 2}
   repairSound: reparation_pierre
