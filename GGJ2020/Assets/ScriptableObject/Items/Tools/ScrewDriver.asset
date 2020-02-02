@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Screw Driver
   icon: {fileID: 1917106047735325612, guid: a2c1f8f04928a1b4ebb0a81b57ee198c, type: 3}
+  animation: {fileID: 0}
+  animIdx: 3

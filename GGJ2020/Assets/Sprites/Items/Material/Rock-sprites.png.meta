@@ -14,6 +14,30 @@ TextureImporter:
   - first:
       213: -6482955502723214059
     second: Rock-sprites_3
+  - first:
+      213: -7735895554544028768
+    second: Rock-sprites_0
+  - first:
+      213: 6031743840125714437
+    second: Rock-sprites_1
+  - first:
+      213: 5521403801357904100
+    second: Rock-sprites_2
+  - first:
+      213: 5738048932168974070
+    second: Rock-sprites_3
+  - first:
+      213: 6749781383817220599
+    second: Rock-sprites_4
+  - first:
+      213: 5683499531436370407
+    second: Rock-sprites_5
+  - first:
+      213: 5864890337280799499
+    second: Rock-sprites_6
+  - first:
+      213: 7149759503277829852
+    second: Rock-sprites_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -75,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -87,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,29 +138,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 24
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9460ff382c50492c0800000000000000
-      internalID: -4425906200802032055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rock-sprites_1
-      rect:
-        serializedVersion: 2
-        x: 28
         y: 17
-        width: 16
+        width: 24
         height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -145,8 +148,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3748736c20bba1c60800000000000000
-      internalID: 7789744126080550003
+      spriteID: 0a331ebcaf394a490800000000000000
+      internalID: -7735895554544028768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-sprites_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 17
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50008d6a01f05b350800000000000000
+      internalID: 6031743840125714437
       vertices: []
       indices: 
       edges: []
@@ -155,10 +179,10 @@ TextureImporter:
       name: Rock-sprites_2
       rect:
         serializedVersion: 2
-        x: 52
-        y: 0
-        width: 16
-        height: 34
+        x: 48
+        y: 17
+        width: 24
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: def09455554699430800000000000000
-      internalID: 3790170879074832365
+      spriteID: 4e8ed61f087ff9c40800000000000000
+      internalID: 5521403801357904100
       vertices: []
       indices: 
       edges: []
@@ -176,10 +200,10 @@ TextureImporter:
       name: Rock-sprites_3
       rect:
         serializedVersion: 2
-        x: 76
-        y: 0
-        width: 16
-        height: 34
+        x: 72
+        y: 17
+        width: 24
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +211,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 515d485815ae706a0800000000000000
-      internalID: -6482955502723214059
+      spriteID: 6febdb13a15a1af40800000000000000
+      internalID: 5738048932168974070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-sprites_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f158fd186a0cad50800000000000000
+      internalID: 6749781383817220599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-sprites_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e92d5c16b8dfde40800000000000000
+      internalID: 5683499531436370407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-sprites_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b033e3030b6446150800000000000000
+      internalID: 5864890337280799499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rock-sprites_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde295e136c093360800000000000000
+      internalID: 7149759503277829852
       vertices: []
       indices: 
       edges: []
