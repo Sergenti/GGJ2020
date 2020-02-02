@@ -140,7 +140,7 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
   - name: explosion_fin
-    clip: {fileID: 8300000, guid: beb9816fa085ed24fa9edca8ea275a5b, type: 3}
+    clip: {fileID: 8300000, guid: 413acd2953d6f1d4db2ce4364788e3d5, type: 3}
     volume: 0.2
     pitch: 1
     source: {fileID: 0}
