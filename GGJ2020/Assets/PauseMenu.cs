@@ -9,11 +9,12 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private GameObject firstSelectedButton;
     private bool GameIsPaused = false;
+    private bool gameIsOver = false;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Pause"))
+        if (Input.GetButtonDown("Pause") && !gameIsOver)
         {
             if (GameIsPaused)
             {
@@ -62,5 +63,10 @@ public class PauseMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void GameIsOver()
+    {
+        gameIsOver = true;
     }
 }
