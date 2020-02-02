@@ -16,10 +16,7 @@ public class GameOverMenu : MonoBehaviour
         reasonText.text = reason;
 
         // select first button for keyboard and gamepad navigation
-        if (!EventSystem.current.alreadySelecting)
-        {
-            EventSystem.current.SetSelectedGameObject(firstSelectedButton);
-        }
+        EventSystem.current.SetSelectedGameObject(firstSelectedButton);
 
         // Hide all HUD elements in the scene
         foreach (var HUDElement in GameObject.FindGameObjectsWithTag("HUD"))
@@ -36,6 +33,8 @@ public class GameOverMenu : MonoBehaviour
 
     public void Retry()
     {
+        Time.timeScale = 1f;
+        
         // reload this scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

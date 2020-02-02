@@ -263,6 +263,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3130fa40c2f77f79b91be7c19b75a3f7, type: 3}
+--- !u!1 &210315808 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6081530224159421432, guid: 9a887348051353045acf306a1d56c972,
+    type: 3}
+  m_PrefabInstance: {fileID: 703448054}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &260204459 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1642728932264221278, guid: 6fca247dca5d9518fbc19aa38a8057de,
@@ -514,6 +520,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6081530223309568162, guid: 9a887348051353045acf306a1d56c972,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -165
+      objectReference: {fileID: 0}
+    - target: {fileID: 6081530223316116968, guid: 9a887348051353045acf306a1d56c972,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -165
       objectReference: {fileID: 0}
     - target: {fileID: 6081530223970555208, guid: 9a887348051353045acf306a1d56c972,
         type: 3}
@@ -769,7 +785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1826433176}
-  firstSelectedButton: {fileID: 1958658528}
+  firstSelectedButton: {fileID: 210315808}
   reasonText: {fileID: 285501897}
 --- !u!114 &856817743
 MonoBehaviour:
@@ -1107,12 +1123,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 803936293976411995}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1958658528 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6081530222498386971, guid: 9a887348051353045acf306a1d56c972,
-    type: 3}
-  m_PrefabInstance: {fileID: 703448054}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1963617458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1274,6 +1284,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Instruction
       objectReference: {fileID: 0}
+    - target: {fileID: 769879788285080273, guid: ad008cc7c68d1d4a98a8a957d2b45f13,
+        type: 3}
+      propertyPath: m_TagString
+      value: HUD
+      objectReference: {fileID: 0}
     - target: {fileID: 769879788285080274, guid: ad008cc7c68d1d4a98a8a957d2b45f13,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1393,6 +1408,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: ToolSelector
       objectReference: {fileID: 0}
+    - target: {fileID: 803936293428579984, guid: fd872eb5694060247957b90ba01e9e4b,
+        type: 3}
+      propertyPath: m_TagString
+      value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 803936293428579990, guid: fd872eb5694060247957b90ba01e9e4b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 803936293428579991, guid: fd872eb5694060247957b90ba01e9e4b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1497,6 +1522,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 803936294599162129, guid: fd872eb5694060247957b90ba01e9e4b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd872eb5694060247957b90ba01e9e4b, type: 3}
@@ -1617,6 +1647,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuel
       objectReference: {fileID: 0}
+    - target: {fileID: 1642728932264221279, guid: 6fca247dca5d9518fbc19aa38a8057de,
+        type: 3}
+      propertyPath: m_TagString
+      value: HUD
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fca247dca5d9518fbc19aa38a8057de, type: 3}
 --- !u!1001 &2182663705056431656
@@ -1695,6 +1730,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 856817741}
     m_Modifications:
+    - target: {fileID: 4359355740993559648, guid: 0483ea10fd0d6c520ae33e1e65d4a3c9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4359355740993559651, guid: 0483ea10fd0d6c520ae33e1e65d4a3c9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1804,6 +1844,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MaterialSelector
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359355740993559652, guid: 0483ea10fd0d6c520ae33e1e65d4a3c9,
+        type: 3}
+      propertyPath: m_TagString
+      value: HUD
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0483ea10fd0d6c520ae33e1e65d4a3c9, type: 3}
