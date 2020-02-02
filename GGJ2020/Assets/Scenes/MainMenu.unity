@@ -461,7 +461,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Options
+  m_text: Settings
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2450a35b08a72c948ba17208775176cd, type: 2}
   m_sharedMaterial: {fileID: -3975536788540386558, guid: 2450a35b08a72c948ba17208775176cd,
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_margin: {x: 21.27002, y: 9.946808, z: 21.94342, w: 15.7491}
   m_textInfo:
     textComponent: {fileID: 183204905}
-    characterCount: 7
+    characterCount: 8
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
