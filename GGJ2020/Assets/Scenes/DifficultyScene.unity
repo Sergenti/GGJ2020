@@ -953,6 +953,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 291743805}
   firstSelectedButton: {fileID: 682180543}
+--- !u!1 &1073566012 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 769879788285080273, guid: ad008cc7c68d1d4a98a8a957d2b45f13,
+    type: 3}
+  m_PrefabInstance: {fileID: 769879789497011788}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1073566015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073566012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61fc4d410e748159f960298407e9479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventToListenTo: {fileID: 11400000, guid: 13fb0f4f0740f6b59afd826d0a606da6, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1073566018}
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1073566018 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 769879788285080300, guid: ad008cc7c68d1d4a98a8a957d2b45f13,
+    type: 3}
+  m_PrefabInstance: {fileID: 769879789497011788}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073566012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1076617126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,6 +1805,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LoopManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5274336537229710467, guid: e5988e1bbd83bd446be36eabc4175772,
+        type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f852724a8806a3428e9c5a8ebd8c57a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5988e1bbd83bd446be36eabc4175772, type: 3}
 --- !u!1 &2057736009 stripped
@@ -1921,10 +1971,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b25528de8d354ebdbdea46cfadb15c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventToListenTo: {fileID: 0}
+  eventToListenTo: {fileID: 11400000, guid: 876e5bae7b04a2552a89db5d60a1cfef, type: 2}
   response:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2057736010}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: explosion_fin
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &769879789497011788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2047,7 +2108,8 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 769879788285080297, guid: ad008cc7c68d1d4a98a8a957d2b45f13, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ad008cc7c68d1d4a98a8a957d2b45f13, type: 3}
 --- !u!1001 &803936293976411995
 PrefabInstance:
