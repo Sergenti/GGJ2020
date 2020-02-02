@@ -133,6 +133,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a642b12d3c179847abb5d9619d66c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sounds:
+  - name: thruster
+    clip: {fileID: 8300000, guid: 9f852724a8806a3428e9c5a8ebd8c57a, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+  - name: deplacement_plateforme
+    clip: {fileID: 8300000, guid: 5869038ea21e02f4aa37b85303ead639, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  mixer: {fileID: 24100000, guid: 25b8322517a0fc4468d5fa198b9f57eb, type: 2}
+--- !u!4 &334913906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334913904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1224240524
 GameObject:
   m_ObjectHideFlags: 0
