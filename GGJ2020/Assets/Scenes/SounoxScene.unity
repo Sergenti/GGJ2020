@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: thruster
-    clip: {fileID: 8300000, guid: 49802d6160e5bca49ae4dd0374ec3ef8, type: 3}
+    clip: {fileID: 8300000, guid: 9f852724a8806a3428e9c5a8ebd8c57a, type: 3}
     volume: 0.1
     pitch: 1
     source: {fileID: 0}
