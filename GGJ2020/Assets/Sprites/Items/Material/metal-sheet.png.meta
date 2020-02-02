@@ -20,6 +20,30 @@ TextureImporter:
   - first:
       213: 7307378988657875832
     second: metal-sheet_5
+  - first:
+      213: -8686646244264691767
+    second: metal-sheet_0
+  - first:
+      213: 4294025967816938716
+    second: metal-sheet_1
+  - first:
+      213: -1656055513259029525
+    second: metal-sheet_2
+  - first:
+      213: -6692345464071381995
+    second: metal-sheet_3
+  - first:
+      213: 5962261954750493285
+    second: metal-sheet_4
+  - first:
+      213: -8316506251911163025
+    second: metal-sheet_5
+  - first:
+      213: 2423656899765078967
+    second: metal-sheet_6
+  - first:
+      213: 6749267596680050678
+    second: metal-sheet_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -118,8 +142,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2f53387a5d66b8f0800000000000000
-      internalID: -525112071210967254
+      spriteID: 9c73f11c345d27780800000000000000
+      internalID: -8686646244264691767
       vertices: []
       indices: 
       edges: []
@@ -128,9 +152,9 @@ TextureImporter:
       name: metal-sheet_1
       rect:
         serializedVersion: 2
-        x: 29
+        x: 25
         y: 0
-        width: 35
+        width: 25
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -139,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a4170f2b37292270800000000000000
-      internalID: 8226149329514468515
+      spriteID: cd41804fdd1779b30800000000000000
+      internalID: 4294025967816938716
       vertices: []
       indices: 
       edges: []
@@ -149,9 +173,9 @@ TextureImporter:
       name: metal-sheet_2
       rect:
         serializedVersion: 2
-        x: 79
+        x: 50
         y: 0
-        width: 17
+        width: 25
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,14 +184,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 896786a7d2b528990800000000000000
-      internalID: -7385240188048869736
+      spriteID: beb4edbe8428409e0800000000000000
+      internalID: -1656055513259029525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: metal-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c14db02430023a0800000000000000
+      internalID: -6692345464071381995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal-sheet_4
       rect:
         serializedVersion: 2
         x: 100
@@ -181,29 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49b1d7096db915990800000000000000
-      internalID: -7398961366943589484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: metal-sheet_4
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 0
-        width: 35
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df6c4132b7ab4e0e0800000000000000
-      internalID: -2241461676491356419
+      spriteID: 562babe88a53eb250800000000000000
+      internalID: 5962261954750493285
       vertices: []
       indices: 
       edges: []
@@ -212,9 +236,9 @@ TextureImporter:
       name: metal-sheet_5
       rect:
         serializedVersion: 2
-        x: 179
+        x: 125
         y: 0
-        width: 17
+        width: 25
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -223,8 +247,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87b1b1a5976096560800000000000000
-      internalID: 7307378988657875832
+      spriteID: f63158a60a5d59c80800000000000000
+      internalID: -8316506251911163025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb0ce7fb1f82a120800000000000000
+      internalID: 2423656899765078967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: metal-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f73b2abe173aad50800000000000000
+      internalID: 6749267596680050678
       vertices: []
       indices: 
       edges: []

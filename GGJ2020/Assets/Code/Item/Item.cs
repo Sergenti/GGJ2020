@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.Animations;
+using UnityEngine;
 
 namespace Code.Item
 {
@@ -7,6 +8,8 @@ namespace Code.Item
         //An item is a material or a tool (It will be define by an animation also)
         [SerializeField] private string name;
         [SerializeField] private Sprite icon;
+        [SerializeField] private AnimatorController animation;
+        [SerializeField] private int animIdx;
 
         //Get set
         public Sprite Icon
@@ -21,5 +24,13 @@ namespace Code.Item
             get => name; 
             set => name = value;
         }
+
+        public AnimatorController Animation
+        {
+            get => animation;
+            set => animation = value;
+        }
+
+        public int AnimIdx => animIdx;
     }
 }

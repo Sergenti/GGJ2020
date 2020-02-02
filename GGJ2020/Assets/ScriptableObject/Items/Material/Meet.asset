@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Meat
   icon: {fileID: 0}
+  animation: {fileID: 9100000, guid: 4c38de221108e34d7aaff2c2aa9834d3, type: 2}
+  animIdx: 3
   repairSound: reparation_viande

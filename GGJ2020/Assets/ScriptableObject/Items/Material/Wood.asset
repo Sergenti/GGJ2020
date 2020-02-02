@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Wood
   icon: {fileID: -1612888459431173141, guid: 1a8379a41bbed755eb7454bbc98dff39, type: 3}
+  animation: {fileID: 9100000, guid: 18283ee4440f927b1a91a37ae8fcab9a, type: 2}
+  animIdx: 1
   repairSound: reparation_bois

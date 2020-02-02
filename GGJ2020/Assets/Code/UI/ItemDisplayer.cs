@@ -1,4 +1,6 @@
 ﻿using System;
+using Code.Item;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,17 +8,16 @@ namespace Code.UI
 {
     public class ItemDisplayer : MonoBehaviour
     {
-        private Image image;
+        private Animator anim;
 
         private void Start()
         {
-            image = GetComponent<Image>();
+            anim = GetComponent<Animator>();
         }
 
         public void DisplayItem(Item.Item item)
         {
-            Sprite sprite = item.Icon;
-            image.sprite = sprite;
+            anim.SetInteger("abc",item.AnimIdx);
         }
     }
 }

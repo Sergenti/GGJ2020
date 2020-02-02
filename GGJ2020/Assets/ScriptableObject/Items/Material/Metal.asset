@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Metal
   icon: {fileID: -525112071210967254, guid: 93f3c716971c3417cbc5b3fa442097e9, type: 3}
+  animation: {fileID: 9100000, guid: a6cc84f20ec24f656bdc5b99ff841541, type: 2}
+  animIdx: 2
   repairSound: reparation_metal
