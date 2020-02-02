@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   icon: {fileID: 7459388958961183696, guid: bd800feeef36b3d46b9522b0f794885f, type: 3}
+  animation: {fileID: 0}
+  animIdx: 2
