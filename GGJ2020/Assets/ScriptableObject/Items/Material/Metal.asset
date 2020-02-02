@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Metal
   m_EditorClassIdentifier: 
   name: Metal
-  icon: {fileID: 0}
+  icon: {fileID: -525112071210967254, guid: 93f3c716971c3417cbc5b3fa442097e9, type: 3}
+  repairSound: reparation_metal

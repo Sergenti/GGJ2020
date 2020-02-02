@@ -65,13 +65,19 @@ PrefabInstance:
     - target: {fileID: 8108693176763555010, guid: e961f6212562730518e27ef0a9580ffe,
         type: 3}
       propertyPath: m_Name
-      value: PortionRoche
+      value: PortionRoche Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8108693177874287981, guid: e961f6212562730518e27ef0a9580ffe,
         type: 3}
       propertyPath: _stageType
       value: 
-      objectReference: {fileID: 11400000, guid: f0ac94ffae5b82c49b4e4f334a859dd4,
+      objectReference: {fileID: 11400000, guid: 4e7ddeda9da038f4e8268124c16ca2b7,
         type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 8108693177874287982, guid: e961f6212562730518e27ef0a9580ffe,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 6.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2162493543697614121, guid: e961f6212562730518e27ef0a9580ffe, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e961f6212562730518e27ef0a9580ffe, type: 3}

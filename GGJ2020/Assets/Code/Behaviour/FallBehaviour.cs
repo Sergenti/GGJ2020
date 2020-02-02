@@ -11,7 +11,7 @@ namespace Code.Behaviour
         //Fall if under the top of the stage who's falling
         public void CheckFallDeath(float high)
         {
-            if (high > transform.position.y)
+            if (high >= transform.TransformPoint(transform.position).y)
             {
                 deathFallEvent.Raise(new Void());
             }

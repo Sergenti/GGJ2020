@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Wood
   m_EditorClassIdentifier: 
   name: Wood
-  icon: {fileID: 0}
+  icon: {fileID: -1612888459431173141, guid: 1a8379a41bbed755eb7454bbc98dff39, type: 3}
+  repairSound: reparation_bois
