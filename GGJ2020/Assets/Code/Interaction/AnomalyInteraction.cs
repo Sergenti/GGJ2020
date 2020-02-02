@@ -17,7 +17,7 @@ namespace Code.Interaction
         [Space,Header("Result Events")]
         [SerializeField] private VoidEvent wrongMaterialEvent;
         [SerializeField] private VoidEvent wrongToolEvent;
-        [SerializeField] private VoidEvent repairEvent;
+        [SerializeField] private MaterialEvent repairEvent;
 
         //Will be updated by two events
         private RepairMaterial currentRepairMaterial;
@@ -60,7 +60,7 @@ namespace Code.Interaction
                 {
                     if (_anomalyInRange.tryToRepair(currentRepairTool))
                     {
-                        repairEvent.Raise(new Void());
+                        repairEvent.Raise(getStageType.CurrentStage.stageMaterial);
                     }
                     else
                     {
