@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b34a23e8844c44d2b8116161fdc57320, type: 3}
   m_Name: Normal
   m_EditorClassIdentifier: 
-  initialFuel: 12
+  initialFuel: 18
   initialAnomalyApparitionSpeed: 8
   initialAnomalyDuration: 10
   fuelFormula: {fileID: 11400000, guid: 4be8a67fe3dc4414db7711c139abd37a, type: 2}

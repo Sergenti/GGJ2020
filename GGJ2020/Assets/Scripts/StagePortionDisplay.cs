@@ -16,11 +16,11 @@ public class StagePortionDisplay : MonoBehaviour
     void Start()
     {
         _sprite = GetComponent<SpriteRenderer>();
+        _sprite.sprite = _stageType.stageSprite;
     }
     
 
     void Update()
     {
-        _sprite.sprite = _stageType.stageSprite;
     }
 }
