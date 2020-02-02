@@ -11,7 +11,7 @@ public class TestSound : MonoBehaviour
     {
         
         //Manager.Play("detachement_module"); //change the name in the function to test the song playing 
-        Manager.Play("alarme_fuel");
+        Manager.Play("explosion_fin");
         Loop.Play("thruster");//change the name in the function to test the song playing
     }
 
