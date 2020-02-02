@@ -583,7 +583,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 19.2, y: 0.64}
+  m_Size: {x: 960, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -713,7 +713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitionLocation: {fileID: 4099132645374566680}
   engineLocation: {fileID: 4099132645162898231}
-  stagePortion: {fileID: 8108693176763555010, guid: e961f6212562730518e27ef0a9580ffe,
+  stagePortion: {fileID: 324571625505294184, guid: 750bd64042ea520458278ae58b1ae2ca,
     type: 3}
   fallEvent: {fileID: 11400000, guid: c7a4e2dafc5702bf6b79a5c2e0cca39d, type: 2}
   anomalyList:
@@ -731,6 +731,7 @@ MonoBehaviour:
   - {fileID: 8764801161061523895, guid: a9dba8d9b26706b80893ebd11c5d1dea, type: 3}
   - {fileID: -8640507366891788198, guid: a9dba8d9b26706b80893ebd11c5d1dea, type: 3}
   - {fileID: 121511691477582199, guid: a9dba8d9b26706b80893ebd11c5d1dea, type: 3}
+  margin: 0.5
 --- !u!1 &4099132645162898232
 GameObject:
   m_ObjectHideFlags: 0

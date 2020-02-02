@@ -7,16 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1792816544, guid: 98a7ff7fd808ae73fbce8cad188529c6, type: 3}
-      propertyPath: m_Size.x
-      value: 960
-      objectReference: {fileID: 0}
-    - target: {fileID: 4099132644751376599, guid: 98a7ff7fd808ae73fbce8cad188529c6,
-        type: 3}
-      propertyPath: stagePortion
-      value: 
-      objectReference: {fileID: 324571625505294184, guid: 750bd64042ea520458278ae58b1ae2ca,
-        type: 3}
     - target: {fileID: 4099132644751376602, guid: 98a7ff7fd808ae73fbce8cad188529c6,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 4850724550413108978, guid: 5add0f0c74ccfcd63a4fb33d8b2c6371,
         type: 3}
       propertyPath: m_Name
-      value: StageWood
+      value: StageWood Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4850724550413108979, guid: 5add0f0c74ccfcd63a4fb33d8b2c6371,
         type: 3}
@@ -67,11 +67,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4850724550413108990, guid: 5add0f0c74ccfcd63a4fb33d8b2c6371,
-        type: 3}
-      propertyPath: stagePortion
-      value: 
-      objectReference: {fileID: 3171758940302713947, guid: 2196c9618b14817cbb0a237722662e57,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5add0f0c74ccfcd63a4fb33d8b2c6371, type: 3}

@@ -11,7 +11,7 @@ PrefabInstance:
         type: 3}
       propertyPath: stagePortion
       value: 
-      objectReference: {fileID: 1051367364015406968, guid: 3abbc394d6fe5e164b29f55133b557ab,
+      objectReference: {fileID: 3171758940302713947, guid: 2196c9618b14817cbb0a237722662e57,
         type: 3}
     - target: {fileID: 6768484600397449948, guid: 8264fe5138da518508df325191815c04,
         type: 3}
@@ -71,7 +71,17 @@ PrefabInstance:
     - target: {fileID: 6768484600397449949, guid: 8264fe5138da518508df325191815c04,
         type: 3}
       propertyPath: m_Name
-      value: StageViande
+      value: StageWood Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768484601059678513, guid: 8264fe5138da518508df325191815c04,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281607625320889185, guid: 8264fe5138da518508df325191815c04,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.321
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8264fe5138da518508df325191815c04, type: 3}

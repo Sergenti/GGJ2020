@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Meet
   m_EditorClassIdentifier: 
   name: 
-  icon: {fileID: 0}
+  icon: {fileID: 2417141912072254832, guid: 0e98fe865faf303428778a9d42cbb12c, type: 3}

@@ -24,7 +24,6 @@ namespace Code.Behaviour
         private void IncreaseDiff()
         {
             diff.IncreaseDifficulty();
-            StartCoroutine(Timer(diff.Fuel));
             StartCoroutine(StageTransition());
         }
 
@@ -50,6 +49,7 @@ namespace Code.Behaviour
             yield return new WaitForSeconds(transitionDuration);
             GameObject nextStage = FindLowestStage();
             nextStage.GetComponent<StageBehaviour>().Diff = diff; 
+            StartCoroutine(Timer(diff.Fuel));
         }
 
 
