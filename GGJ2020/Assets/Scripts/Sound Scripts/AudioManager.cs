@@ -21,10 +21,6 @@ public class AudioManager : MonoBehaviour
 			// route the output of this source to the "Effects" group in the game's audio mixer
 			sound.source.outputAudioMixerGroup = mixer.FindMatchingGroups("SoundEffects")[0];
 		}
-
-		// play the game music and stop the menu music
-		/*if (GameObject.FindGameObjectWithTag("MenuMusic") == null) return;
-		GameObject.FindGameObjectWithTag("MenuMusic").GetComponent<MenuMusic>().PlayGame();*/
 	}
 
 	public void Play(string soundName)

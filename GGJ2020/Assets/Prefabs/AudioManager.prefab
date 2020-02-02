@@ -139,4 +139,9 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     source: {fileID: 0}
+  - name: explosion_fin
+    clip: {fileID: 8300000, guid: beb9816fa085ed24fa9edca8ea275a5b, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
   mixer: {fileID: 24100000, guid: 25b8322517a0fc4468d5fa198b9f57eb, type: 2}
