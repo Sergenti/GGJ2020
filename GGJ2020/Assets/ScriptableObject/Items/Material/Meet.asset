@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce5c34de8c474614a50b5fc3caaa6c2e, type: 3}
   m_Name: Meet
   m_EditorClassIdentifier: 
-  name: 
+  name: Meat
   icon: {fileID: 0}
+  repairSound: reparation_viande

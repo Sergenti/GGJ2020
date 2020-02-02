@@ -65,7 +65,7 @@ PrefabInstance:
     - target: {fileID: 3171758940302713947, guid: 2196c9618b14817cbb0a237722662e57,
         type: 3}
       propertyPath: m_Name
-      value: PortionViande
+      value: PortionViande Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3171758941405001204, guid: 2196c9618b14817cbb0a237722662e57,
         type: 3}
@@ -73,5 +73,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 11dcedc54170c3a5893fc1071bed3e4c,
         type: 2}
+    - target: {fileID: 3171758941405001207, guid: 2196c9618b14817cbb0a237722662e57,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 6.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2196c9618b14817cbb0a237722662e57, type: 3}

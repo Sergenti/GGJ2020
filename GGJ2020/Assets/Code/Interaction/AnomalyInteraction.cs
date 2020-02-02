@@ -48,6 +48,8 @@ namespace Code.Interaction
         {
             // To avoid latter troubles
             if(getStageType == null) {return;}
+            if(getStageType.CurrentStage == null) {return;}
+            if(getStageType.CurrentStage.stageMaterial == null){return;}
             
             _rightRepairMaterial = getStageType.CurrentStage.stageMaterial;
             

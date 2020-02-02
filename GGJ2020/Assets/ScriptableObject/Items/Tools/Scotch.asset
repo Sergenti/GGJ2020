@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Scotch
   m_EditorClassIdentifier: 
   name: Scotch
-  icon: {fileID: -3875210465124533048, guid: 6fb44935ced5f7b17ab5fcd34a7b5546, type: 3}
+  icon: {fileID: 21300000, guid: fbf67603c9bbea948862bdee984fd441, type: 3}
