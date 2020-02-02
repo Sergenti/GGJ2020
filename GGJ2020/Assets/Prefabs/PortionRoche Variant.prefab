@@ -65,7 +65,7 @@ PrefabInstance:
     - target: {fileID: 8108693176763555010, guid: e961f6212562730518e27ef0a9580ffe,
         type: 3}
       propertyPath: m_Name
-      value: PortionWood Variant
+      value: PortionRoche Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8108693177874287981, guid: e961f6212562730518e27ef0a9580ffe,
         type: 3}

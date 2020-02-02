@@ -22,40 +22,13 @@ namespace Code.Behaviour
         [Space]
         [SerializeField] private List<GameObject> anomalyList = new List<GameObject>();
 
-        [Space] [SerializeField] private SpriteEvent fuelEvent;
-        [SerializeField] private List<Sprite> fuelSprites = new List<Sprite>();
         [SerializeField] private float margin = 0.5f;
 
-        private DifficultyIncrease _diff;
 
-        private float fuel;
-        private int currentFuelIdx = 0;
 
-        public DifficultyIncrease Diff
-        {
-            set
-            {
-                _diff = value;
-                StartCoroutine(Timer(_diff.AnomalyApparition,_diff.AnomalyDuration));
-                fuel = _diff.Fuel;
-            }
-        }
+        
 
-        private void Update()
-        {
-            if (_diff == null)
-            {
-                return;}
-            fuel -= Time.deltaTime;
-            float percent = fuel / _diff.Fuel;
-            percent *= 8;
-            int spriteIdx = (int) (percent);
-            if (spriteIdx > currentFuelIdx)
-            {
-               fuelEvent.Raise(fuelSprites[spriteIdx]);
-               currentFuelIdx++;
-            }
-        }
+        
 
         private void Start()
         {
@@ -79,15 +52,9 @@ namespace Code.Behaviour
             } **/
         }
 
-        IEnumerator Timer(float duration,float persistence)
-        {
-            yield return new WaitForSeconds(duration);
-            GenerateAnomaly(persistence);
-            currentFuelIdx = 0;
-            StartCoroutine(Timer(duration, persistence));
-        }
+        
 
-        private void GenerateAnomaly(float persistence)
+        public void GenerateAnomaly(float persistence)
         {
             int idx = Random.Range(0, anomalyList.Count);
             float position = Random.Range(engineLocation.position.y + margin, transitionLocation.position.y - margin);

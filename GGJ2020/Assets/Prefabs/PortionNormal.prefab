@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 98503260}
   - component: {fileID: 1503963338982831074}
   - component: {fileID: 500552342431645498}
-  - component: {fileID: 2162493543697614121}
   m_Layer: 8
   m_Name: PortionNormal
   m_TagString: Untagged
@@ -139,18 +138,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2162493543697614121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8108693176763555010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9df41003a0c1b96c09dbb3c6f156668f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8108693177874287983
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,7 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1363275a9f3512678aa454048f49979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stageType: {fileID: 11400000, guid: f0ac94ffae5b82c49b4e4f334a859dd4, type: 2}
+  _stageType: {fileID: 11400000, guid: 6b6fb8683df30ab478d8df7836c3fcce, type: 2}
 --- !u!114 &441249510
 MonoBehaviour:
   m_ObjectHideFlags: 0

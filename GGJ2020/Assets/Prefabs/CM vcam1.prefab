@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b25528de8d354ebdbdea46cfadb15c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventToListenTo: {fileID: 11400000, guid: a989e03f458220a9aa72282c866b6238, type: 2}
+  eventToListenTo: {fileID: 0}
   response:
     m_PersistentCalls:
       m_Calls:
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c42337f88d1b54a3a03c2f8c2806d50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventToListenTo: {fileID: 11400000, guid: c7a4e2dafc5702bf6b79a5c2e0cca39d, type: 2}
+  eventToListenTo: {fileID: 0}
   response:
     m_PersistentCalls:
       m_Calls:
