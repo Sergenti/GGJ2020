@@ -1,31 +1,34 @@
 fileFormatVersion: 2
-guid: 1a8379a41bbed755eb7454bbc98dff39
+guid: ec7c12cb52766614c814de10c8187b55
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1612888459431173141
-    second: trunksheet_0
+      213: -7363411520970771282
+    second: Astronautekisor-Sheet_0
   - first:
-      213: -1326157069444478951
-    second: trunksheet_1
+      213: 3473993114713003435
+    second: Astronautekisor-Sheet_1
   - first:
-      213: -2121937657131491486
-    second: trunksheet_2
+      213: -2214653796216757525
+    second: Astronautekisor-Sheet_2
   - first:
-      213: -1620761658570036652
-    second: trunksheet_3
+      213: 6128093533715308652
+    second: Astronautekisor-Sheet_3
   - first:
-      213: -1375535681999596734
-    second: trunksheet_4
+      213: 5050241599356963712
+    second: Astronautekisor-Sheet_4
   - first:
-      213: 550289188255537207
-    second: trunksheet_5
+      213: -3456560283158529069
+    second: Astronautekisor-Sheet_5
   - first:
-      213: -4025620702123829232
-    second: trunksheet_6
+      213: 604676644391848522
+    second: Astronautekisor-Sheet_6
   - first:
-      213: -1547105375229115208
-    second: trunksheet_7
+      213: -7846040867118955097
+    second: Astronautekisor-Sheet_7
+  - first:
+      213: -2101763671290932821
+    second: Astronautekisor-Sheet_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -69,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -99,19 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,160 +113,181 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: trunksheet_0
+      name: Astronautekisor-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 26
-        height: 38
+        width: 32
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be32749dd7edd99e0800000000000000
-      internalID: -1612888459431173141
+      spriteID: ea4b4851c38efc990800000000000000
+      internalID: -7363411520970771282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trunksheet_1
+      name: Astronautekisor-Sheet_1
       rect:
         serializedVersion: 2
-        x: 29
+        x: 32
         y: 0
-        width: 21
-        height: 38
+        width: 32
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 918836feb2b889de0800000000000000
-      internalID: -1326157069444478951
+      spriteID: ba51f92f45a163030800000000000000
+      internalID: 3473993114713003435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trunksheet_2
+      name: Astronautekisor-Sheet_2
       rect:
         serializedVersion: 2
-        x: 56
+        x: 64
         y: 0
-        width: 17
-        height: 38
+        width: 32
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26f172f71fc5d82e0800000000000000
-      internalID: -2121937657131491486
+      spriteID: be2a7082b18f341e0800000000000000
+      internalID: -2214653796216757525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trunksheet_3
+      name: Astronautekisor-Sheet_3
       rect:
         serializedVersion: 2
-        x: 80
+        x: 95
         y: 0
-        width: 21
-        height: 38
+        width: 32
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45a2c53dbd5e189e0800000000000000
-      internalID: -1620761658570036652
+      spriteID: c602873d99c5b0550800000000000000
+      internalID: 6128093533715308652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trunksheet_4
+      name: Astronautekisor-Sheet_4
       rect:
         serializedVersion: 2
-        x: 104
+        x: 128
         y: 0
-        width: 26
-        height: 38
+        width: 32
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2431a8ac59d19ece0800000000000000
-      internalID: -1375535681999596734
+      spriteID: 08b829f2aff061640800000000000000
+      internalID: 5050241599356963712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trunksheet_5
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 0
-        width: 19
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73895b5e91503a700800000000000000
-      internalID: 550289188255537207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trunksheet_6
+      name: Astronautekisor-Sheet_5
       rect:
         serializedVersion: 2
         x: 160
         y: 0
-        width: 17
-        height: 38
+        width: 32
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0185371dc4f1228c0800000000000000
-      internalID: -4025620702123829232
+      spriteID: 3dbbc917cb4d700d0800000000000000
+      internalID: -3456560283158529069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trunksheet_7
+      name: Astronautekisor-Sheet_6
       rect:
         serializedVersion: 2
-        x: 186
+        x: 192
         y: 0
-        width: 19
-        height: 38
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a83f0543e346800800000000000000
+      internalID: 604676644391848522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronautekisor-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a54d26c6634d1390800000000000000
+      internalID: -7846040867118955097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Astronautekisor-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 59
+        width: 13
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,8 +295,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b40f5fabd3978ae0800000000000000
-      internalID: -1547105375229115208
+      spriteID: ba112ea931905d2e0800000000000000
+      internalID: -2101763671290932821
       vertices: []
       indices: 
       edges: []

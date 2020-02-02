@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _stageSprite:
   - {fileID: 21300000, guid: 25a16d688228c79c19be3da409752d76, type: 3}
+  - {fileID: 21300000, guid: afdf629e735d471a7af935ec90a58f6c, type: 3}
   stageMaterial: {fileID: 11400000, guid: f488e05fcf5420cc8aa33e15e6056988, type: 2}

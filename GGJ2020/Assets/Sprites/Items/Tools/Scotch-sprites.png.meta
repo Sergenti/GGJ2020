@@ -29,6 +29,12 @@ TextureImporter:
   - first:
       213: -6621250423853941481
     second: Scotch-sprites_8
+  - first:
+      213: -8354789939120728316
+    second: Scotch-sprites_6
+  - first:
+      213: 251299660584005671
+    second: Scotch-sprites_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -90,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -102,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,12 +134,12 @@ TextureImporter:
       name: Scotch-sprites_1
       rect:
         serializedVersion: 2
-        x: 26
-        y: 56
-        width: 26
-        height: 28
+        x: 32
+        y: 0
+        width: 32
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,12 +155,12 @@ TextureImporter:
       name: Scotch-sprites_2
       rect:
         serializedVersion: 2
-        x: 52
-        y: 56
-        width: 26
-        height: 28
+        x: 64
+        y: 0
+        width: 32
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,12 +176,12 @@ TextureImporter:
       name: Scotch-sprites_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 28
-        width: 26
-        height: 28
+        x: 96
+        y: 0
+        width: 32
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -191,12 +197,12 @@ TextureImporter:
       name: Scotch-sprites_4
       rect:
         serializedVersion: 2
-        x: 26
-        y: 28
-        width: 26
-        height: 28
+        x: 128
+        y: 0
+        width: 32
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -212,12 +218,12 @@ TextureImporter:
       name: Scotch-sprites_5
       rect:
         serializedVersion: 2
-        x: 52
-        y: 28
-        width: 26
-        height: 28
+        x: 160
+        y: 0
+        width: 32
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,22 +236,43 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scotch-sprites_6
+      name: Scotch-sprites_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 26
-        height: 28
+        width: 32
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1abda43db9e56aa20800000000000000
-      internalID: 3073247819084782497
+      spriteID: 8cc306c1d9c783ac0800000000000000
+      internalID: -3875210465124533048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scotch-sprites_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40793b1e0d2dd0c80800000000000000
+      internalID: -8354789939120728316
       vertices: []
       indices: 
       edges: []
@@ -254,40 +281,19 @@ TextureImporter:
       name: Scotch-sprites_7
       rect:
         serializedVersion: 2
-        x: 26
+        x: 224
         y: 0
-        width: 26
-        height: 28
+        width: 32
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed5cbb263bfde6770800000000000000
-      internalID: 8606061899500209630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Scotch-sprites_8
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 0
-        width: 26
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71df74502d79c14a0800000000000000
-      internalID: -6621250423853941481
+      spriteID: 7203949b5bbcc7300800000000000000
+      internalID: 251299660584005671
       vertices: []
       indices: 
       edges: []

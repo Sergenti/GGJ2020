@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Scotch
   icon: {fileID: 3208766327207691789, guid: 64a76e10ec2b9ba42a2670503cffc736, type: 3}
+  animation: {fileID: 0}
+  animIdx: 1
