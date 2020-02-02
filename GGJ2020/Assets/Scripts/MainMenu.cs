@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("ZacScene");
+        SceneManager.LoadScene("DifficultyScene");
     }
 
     public void ExitGame()
