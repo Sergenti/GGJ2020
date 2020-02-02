@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 70b56f8baeae2eb4990ff4eef0981a5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1488825728727922032
+    second: Move pad_0
+  - first:
+      213: -1376809876726734309
+    second: Move pad_1
+  - first:
+      213: 5757156311141529929
+    second: Move pad_2
+  - first:
+      213: -6461938596589885290
+    second: Move pad_3
+  - first:
+      213: 4581105699311269274
+    second: Move pad_4
+  - first:
+      213: -7209771255138049806
+    second: Move pad_5
+  - first:
+      213: -5746700442443417610
+    second: Move pad_6
+  - first:
+      213: -2132419225021092851
+    second: Move pad_7
+  - first:
+      213: 2626028633791851749
+    second: Move pad_8
+  - first:
+      213: -2789841289496057582
+    second: Move pad_9
+  - first:
+      213: 7398874045075445246
+    second: Move pad_10
+  - first:
+      213: -8889375627811974126
+    second: Move pad_11
+  - first:
+      213: -5228406926102840715
+    second: Move pad_12
+  - first:
+      213: -5127185374582805142
+    second: Move pad_13
+  - first:
+      213: 8054329181021593142
+    second: Move pad_14
+  - first:
+      213: 969247786092428618
+    second: Move pad_15
+  - first:
+      213: -7420293036004909936
+    second: Move pad_16
+  - first:
+      213: 3670436466888745638
+    second: Move pad_17
+  - first:
+      213: 8135305459312767141
+    second: Move pad_18
+  - first:
+      213: -2578010248080867931
+    second: Move pad_19
+  - first:
+      213: -2565449082222018994
+    second: Move pad_20
+  - first:
+      213: 222050728119818180
+    second: Move pad_21
+  - first:
+      213: -105922479408227520
+    second: Move pad_22
+  - first:
+      213: 7710880891509131766
+    second: Move pad_23
+  - first:
+      213: 8731394615050736155
+    second: Move pad_24
+  - first:
+      213: -8173030705922195124
+    second: Move pad_25
+  - first:
+      213: -9206652139366928695
+    second: Move pad_26
+  - first:
+      213: -5085867809231799260
+    second: Move pad_27
+  - first:
+      213: 3198871695553399136
+    second: Move pad_28
+  - first:
+      213: 8357369611833283940
+    second: Move pad_29
+  - first:
+      213: -5329659683762104339
+    second: Move pad_30
+  - first:
+      213: 3233766493313437083
+    second: Move pad_31
+  - first:
+      213: -1143833543455127973
+    second: Move pad_32
+  - first:
+      213: -5453894013519776261
+    second: Move pad_33
+  - first:
+      213: -5958164370861997325
+    second: Move pad_34
+  - first:
+      213: -8525262925344934146
+    second: Move pad_35
+  - first:
+      213: 4707708874444152693
+    second: Move pad_36
+  - first:
+      213: 5689725761701913026
+    second: Move pad_37
+  - first:
+      213: 1787378469809654149
+    second: Move pad_38
+  - first:
+      213: 407466780038623444
+    second: Move pad_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Move pad_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 110
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0753a45bc1f59a410800000000000000
+      internalID: 1488825728727922032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move pad_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 110
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12247636b694ece0800000000000000
+      internalID: -1376809876726734309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move pad_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 110
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9493df9892785ef40800000000000000
+      internalID: 5757156311141529929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move pad_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 110
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698afdd45159256a0800000000000000
+      internalID: -6461938596589885290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move pad_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 110
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9537fd9c5b539f30800000000000000
+      internalID: 4581105699311269274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move pad_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 110
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0aca11e3fb1fb90800000000000000
+      internalID: -7209771255138049806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move pad_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 110
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f77499156e9f30b0800000000000000
+      internalID: -5746700442443417610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move pad_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 110
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c676c43002862e0800000000000000
+      internalID: -2132419225021092851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
