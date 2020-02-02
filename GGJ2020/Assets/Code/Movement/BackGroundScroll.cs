@@ -7,11 +7,10 @@ namespace Code.Movement
         [SerializeField] private float verticalSpeed = 0.1f;
         [SerializeField] private float magicValue = 0.925f;
 
-        private float initialHeigh;
+        private float initialHeigh = 4f;
         // Start is called before the first frame update
         void Start()
         {
-            initialHeigh = transform.position.y;
         }
 
         // Update is called once per frame

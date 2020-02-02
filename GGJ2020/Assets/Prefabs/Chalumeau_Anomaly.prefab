@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 6578977699103539683}
   - component: {fileID: 6578977699103539680}
   - component: {fileID: 6578977699103539682}
+  - component: {fileID: 1285892192437228707}
   m_Layer: 0
   m_Name: Chalumeau_Anomaly
   m_TagString: Untagged
@@ -111,6 +112,33 @@ MonoBehaviour:
   destroyDelay: 0.2
   durationTime: 10
   destroyEvent: {fileID: 11400000, guid: 876e5bae7b04a2552a89db5d60a1cfef, type: 2}
+--- !u!114 &1285892192437228707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6578977699103539681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c42337f88d1b54a3a03c2f8c2806d50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventToListenTo: {fileID: 11400000, guid: c7a4e2dafc5702bf6b79a5c2e0cca39d, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6578977699103539681}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6578977699276526177
 GameObject:
   m_ObjectHideFlags: 0
