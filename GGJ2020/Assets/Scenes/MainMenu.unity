@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 31212902}
   - component: {fileID: 31212901}
   m_Layer: 5
-  m_Name: OptionsButton
+  m_Name: ControlsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -219,7 +219,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 318065635}
-        m_MethodName: OpenOptions
+        m_MethodName: OpenControls
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -461,7 +461,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Settings
+  m_text: Controls
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2450a35b08a72c948ba17208775176cd, type: 2}
   m_sharedMaterial: {fileID: -3975536788540386558, guid: 2450a35b08a72c948ba17208775176cd,

@@ -15,8 +15,8 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
     
-    public void OpenOptions()
+    public void OpenControls()
     {
-        Debug.Log("There are no options yet...");
+        SceneManager.LoadScene("Controls");
     }
 }
