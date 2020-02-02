@@ -10,11 +10,14 @@ public class GameOverMenu : MonoBehaviour
     [SerializeField] private GameObject panel;
     [SerializeField] private GameObject firstSelectedButton;
     [SerializeField] private TextMeshProUGUI reasonText;
+    private bool gameIsOver = false;
 
     private bool retryPressed = false;
 
     public void GameOver(string reason)
     {
+        if (gameIsOver) return;
+
         reasonText.text = reason;
 
         // select first button for keyboard and gamepad navigation
@@ -31,6 +34,8 @@ public class GameOverMenu : MonoBehaviour
 
         // show panel
         panel.SetActive(true);
+
+        gameIsOver = true;
     }
 
     public void Retry()
