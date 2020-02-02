@@ -7,16 +7,16 @@ namespace Code.UI
     //Simple displayer, we will later display an animation instead
     public class ToolDisplay : MonoBehaviour
     {
-        private TextMeshProUGUI _text;
+        private Animator anim;
         
         void Start()
         {
-            _text = GetComponent<TextMeshProUGUI>();
+            anim = GetComponent<Animator>();
         }
 
         public void DisplayToolName(RepairTool tool)
         {
-            _text.text = tool.Name;
+            anim.SetInteger("idx",tool.AnimIdx);
         }
     }
 }
