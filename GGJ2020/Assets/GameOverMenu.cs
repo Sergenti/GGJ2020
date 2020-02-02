@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameOverMenu : MonoBehaviour
@@ -14,11 +15,28 @@ public class GameOverMenu : MonoBehaviour
     {
         reasonText.text = reason;
 
+        // select first button for keyboard and gamepad navigation
         if (!EventSystem.current.alreadySelecting)
         {
             EventSystem.current.SetSelectedGameObject(firstSelectedButton);
         }
 
+        // Hide all HUD elements in the scene
+        foreach (var HUDElement in GameObject.FindGameObjectsWithTag("HUD"))
+        {
+            HUDElement.SetActive(false);
+        }
+
+        // stop time
+        Time.timeScale = 0f;
+
+        // show panel
         panel.SetActive(true);
+    }
+
+    public void Retry()
+    {
+        // reload this scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
